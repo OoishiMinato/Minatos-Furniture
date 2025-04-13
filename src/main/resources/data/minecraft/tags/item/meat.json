@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minato_furniture:cut_cooked_rabbit",
+    "minato_furniture:cut_cooked_mutton",
+    "minato_furniture:cut_cooked_chicken",
+    "minato_furniture:cut_cooked_porkchop",
+    "minato_furniture:cut_cooked_beef"
+  ]
+}

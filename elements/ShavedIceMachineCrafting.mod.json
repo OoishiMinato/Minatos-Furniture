@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.CONCRETE#15"
+      },
+      {
+        "value": "CUSTOM:Gear"
+      },
+      {
+        "value": "Blocks.CONCRETE#15"
+      },
+      {
+        "value": "Blocks.CONCRETE#15"
+      },
+      {
+        "value": "Blocks.CONCRETE#0"
+      },
+      {
+        "value": "Blocks.CONCRETE#15"
+      },
+      {
+        "value": "Blocks.CONCRETE#15"
+      },
+      {
+        "value": "Blocks.CONCRETE#15"
+      },
+      {
+        "value": "Blocks.CONCRETE#15"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ShavedIceMachine"
+    },
+    "name": "shaved_ice_machine_crafting",
+    "namespace": "mod"
+  }
+}

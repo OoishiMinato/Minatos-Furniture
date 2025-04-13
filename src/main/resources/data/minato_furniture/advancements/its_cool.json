@@ -1,0 +1,29 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "minato_furniture:shaved_ice"
+    },
+    "title": {
+      "translate": "advancements.its_cool.title"
+    },
+    "description": {
+      "translate": "advancements.its_cool.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "its_cool_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "minato_furniture:water_melon_shaved_crafting"
+    ]
+  }
+}

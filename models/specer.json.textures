@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "4": "minecraft:black_concrete",
+        "5": "minecraft:white_concrete_powder",
+        "6": "minecraft:polished_andesite",
+        "missing": "minecraft:black_concrete"
+      },
+      "name": "default"
+    }
+  }
+}

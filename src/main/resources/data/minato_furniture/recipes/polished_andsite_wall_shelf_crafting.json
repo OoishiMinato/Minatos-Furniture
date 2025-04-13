@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:polished_andesite"
+    },
+    "1": {
+      "item": "minecraft:polished_andesite"
+    },
+    "2": {
+      "item": "minecraft:white_concrete"
+    },
+    "3": {
+      "item": "minecraft:polished_andesite"
+    },
+    "4": {
+      "item": "minecraft:chest"
+    },
+    "5": {
+      "item": "minecraft:white_concrete"
+    },
+    "6": {
+      "item": "minecraft:polished_andesite"
+    },
+    "7": {
+      "item": "minecraft:polished_andesite"
+    },
+    "8": {
+      "item": "minecraft:white_concrete"
+    }
+  },
+  "result": {
+    "item": "minato_furniture:polished_andsite_wall_shelf",
+    "count": 1
+  }
+}

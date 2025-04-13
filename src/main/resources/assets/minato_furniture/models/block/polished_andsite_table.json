@@ -1,0 +1,8 @@
+{
+  "parent": "minato_furniture:custom/table",
+  "textures": {
+    "all": "minato_furniture:blocks/polished_andesite",
+    "particle": "minato_furniture:blocks/polished_andesite",
+    "0": "minato_furniture:blocks/polished_andesite"
+  }
+}

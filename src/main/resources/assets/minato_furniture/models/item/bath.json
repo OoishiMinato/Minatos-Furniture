@@ -1,0 +1,7 @@
+{
+  "parent": "minato_furniture:custom/bath_item",
+  "textures": {
+    "1": "minecraft:block/white_concrete",
+    "particle": "minecraft:item/iron_door"
+  }
+}

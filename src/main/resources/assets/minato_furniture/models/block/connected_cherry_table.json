@@ -1,0 +1,9 @@
+{
+  "parent": "minato_furniture:custom/connected_table",
+  "textures": {
+    "all": "minecraft:block/cherry_log",
+    "particle": "minecraft:block/cherry_log",
+    "0": "minecraft:block/cherry_log"
+  },
+  "render_type": "solid"
+}

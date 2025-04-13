@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "minecraft:polished_blackstone",
+        "1": "minecraft:black_concrete"
+      },
+      "name": "default"
+    }
+  }
+}

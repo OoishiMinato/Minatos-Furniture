@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "minato_furniture:block/washingmachine"
+    },
+    "facing=east": {
+      "model": "minato_furniture:block/washingmachine",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "minato_furniture:block/washingmachine",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "minato_furniture:block/washingmachine",
+      "y": 270
+    }
+  }
+}

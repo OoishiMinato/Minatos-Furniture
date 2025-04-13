@@ -1,0 +1,11 @@
+{
+  "parent": "minato_furniture:custom/high_heat_oven",
+  "textures": {
+    "all": "minecraft:block/white_concrete",
+    "particle": "minecraft:block/white_concrete",
+    "0": "minecraft:block/white_concrete",
+    "1": "minecraft:block/polished_andesite",
+    "2": "minecraft:block/andesite"
+  },
+  "render_type": "solid"
+}

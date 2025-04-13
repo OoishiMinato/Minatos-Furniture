@@ -1,0 +1,74 @@
+{
+  "mappings": {
+    "v6": {
+      "map": {
+        "5": "white_concrete",
+        "6": "smooth_stone"
+      },
+      "name": "v6"
+    },
+    "v7": {
+      "map": {
+        "5": "white_concrete",
+        "6": "polished_granite"
+      },
+      "name": "v7"
+    },
+    "default": {
+      "map": {
+        "5": "white_concrete",
+        "6": "oak_planks"
+      },
+      "name": "default"
+    },
+    "v8": {
+      "map": {
+        "5": "white_concrete",
+        "6": "polished_diorite"
+      },
+      "name": "v8"
+    },
+    "v9": {
+      "map": {
+        "5": "white_concrete",
+        "6": "polished_andesite"
+      },
+      "name": "v9"
+    },
+    "v1": {
+      "map": {
+        "5": "white_concrete",
+        "6": "spruce_planks"
+      },
+      "name": "v1"
+    },
+    "v2": {
+      "map": {
+        "5": "white_concrete",
+        "6": "birch_planks"
+      },
+      "name": "v2"
+    },
+    "v3": {
+      "map": {
+        "5": "white_concrete",
+        "6": "jungle_planks"
+      },
+      "name": "v3"
+    },
+    "v4": {
+      "map": {
+        "5": "white_concrete",
+        "6": "acacia_planks"
+      },
+      "name": "v4"
+    },
+    "v5": {
+      "map": {
+        "5": "white_concrete",
+        "6": "dark_oak_planks"
+      },
+      "name": "v5"
+    }
+  }
+}

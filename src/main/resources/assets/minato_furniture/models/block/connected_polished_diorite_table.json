@@ -1,0 +1,10 @@
+{
+  "parent": "minato_furniture:custom/kitchen_counter",
+  "textures": {
+    "all": "minecraft:block/polished_diorite",
+    "particle": "minecraft:block/polished_diorite",
+    "5": "minato_furniture:block/white_concrete",
+    "6": "minato_furniture:block/polished_diorite"
+  },
+  "render_type": "solid"
+}

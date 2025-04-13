@@ -1,0 +1,18 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "stop",
+        "1": "oshiri",
+        "2": "bide",
+        "3": "washlet",
+        "4": "yowaku",
+        "5": "tuyoku",
+        "7": "white",
+        "8": "minecraft:white_concrete",
+        "9": "minecraft:oak_log"
+      },
+      "name": "default"
+    }
+  }
+}

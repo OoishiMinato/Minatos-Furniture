@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:spruce_planks"
+    },
+    "b": {
+      "item": "minecraft:bookshelf"
+    }
+  },
+  "result": {
+    "item": "minato_furniture:spruce_vertical_bookshelf",
+    "count": 6
+  }
+}

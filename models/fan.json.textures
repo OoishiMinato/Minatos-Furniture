@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "4": "minecraft:white_concrete",
+        "5": "minecraft:gray_concrete",
+        "6": "fan1",
+        "7": "fan2"
+      },
+      "name": "default"
+    }
+  }
+}

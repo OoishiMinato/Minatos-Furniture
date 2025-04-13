@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:polished_andesite"
+    },
+    "1": {
+      "item": "minecraft:polished_andesite"
+    },
+    "2": {
+      "item": "minecraft:polished_andesite"
+    },
+    "3": {
+      "item": "minecraft:polished_andesite"
+    },
+    "5": {
+      "item": "minecraft:polished_andesite"
+    }
+  },
+  "result": {
+    "item": "minato_furniture:polished_andsite_coffee_table",
+    "count": 4
+  }
+}

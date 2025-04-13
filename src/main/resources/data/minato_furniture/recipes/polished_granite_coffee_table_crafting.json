@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:polished_granite"
+    },
+    "1": {
+      "item": "minecraft:polished_granite"
+    },
+    "2": {
+      "item": "minecraft:polished_granite"
+    },
+    "3": {
+      "item": "minecraft:polished_granite"
+    },
+    "5": {
+      "item": "minecraft:polished_granite"
+    }
+  },
+  "result": {
+    "item": "minato_furniture:polished_granite_coffee_table",
+    "count": 4
+  }
+}

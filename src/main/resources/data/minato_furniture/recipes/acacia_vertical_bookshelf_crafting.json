@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:acacia_planks"
+    },
+    "b": {
+      "item": "minecraft:bookshelf"
+    }
+  },
+  "result": {
+    "item": "minato_furniture:acacia_vertical_bookshelf",
+    "count": 6
+  }
+}

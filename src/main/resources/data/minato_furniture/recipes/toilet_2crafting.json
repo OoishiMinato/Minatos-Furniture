@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01 ",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:white_concrete"
+    },
+    "1": {
+      "item": "minecraft:white_concrete"
+    },
+    "3": {
+      "item": "minecraft:white_concrete"
+    },
+    "4": {
+      "item": "minecraft:white_concrete"
+    },
+    "5": {
+      "item": "minecraft:water_bucket"
+    },
+    "6": {
+      "item": "minecraft:white_concrete"
+    },
+    "7": {
+      "item": "minecraft:white_concrete"
+    },
+    "8": {
+      "item": "minecraft:white_concrete"
+    }
+  },
+  "result": {
+    "item": "minato_furniture:toilet",
+    "count": 1
+  }
+}

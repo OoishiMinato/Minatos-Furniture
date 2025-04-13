@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "minecraft:iron_block",
+        "1": "minecraft:stone",
+        "missing": "minecraft:iron_block"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  a",
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:acacia_log"
+    }
+  },
+  "result": {
+    "item": "minato_furniture:acacia_chair",
+    "count": 4
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "minato_furniture:custom/speaker",
+  "textures": {
+    "all": "minato_furniture:blocks/acacia_planks",
+    "particle": "minato_furniture:blocks/acacia_planks",
+    "3": "minato_furniture:blocks/acacia_planks",
+    "4": "minato_furniture:blocks/black_concrete",
+    "5": "minato_furniture:blocks/white_concrete_powder"
+  }
+}

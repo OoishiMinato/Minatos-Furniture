@@ -1,0 +1,84 @@
+{
+  "mappings": {
+    "v6": {
+      "map": {
+        "0": "smooth_stone",
+        "1": "white_concrete",
+        "2": "cyan_terracotta"
+      },
+      "name": "v6"
+    },
+    "v7": {
+      "map": {
+        "0": "polished_granite",
+        "1": "white_concrete",
+        "2": "cyan_terracotta"
+      },
+      "name": "v7"
+    },
+    "default": {
+      "map": {
+        "0": "oak_planks",
+        "1": "white_concrete",
+        "2": "cyan_terracotta"
+      },
+      "name": "default"
+    },
+    "v8": {
+      "map": {
+        "0": "polished_diorite",
+        "1": "white_concrete",
+        "2": "cyan_terracotta"
+      },
+      "name": "v8"
+    },
+    "v9": {
+      "map": {
+        "0": "polished_andesite",
+        "1": "white_concrete",
+        "2": "cyan_terracotta"
+      },
+      "name": "v9"
+    },
+    "v1": {
+      "map": {
+        "0": "spruce_planks",
+        "1": "white_concrete",
+        "2": "cyan_terracotta"
+      },
+      "name": "v1"
+    },
+    "v2": {
+      "map": {
+        "0": "birch_planks",
+        "1": "white_concrete",
+        "2": "cyan_terracotta"
+      },
+      "name": "v2"
+    },
+    "v3": {
+      "map": {
+        "0": "jungle_planks",
+        "1": "white_concrete",
+        "2": "cyan_terracotta"
+      },
+      "name": "v3"
+    },
+    "v4": {
+      "map": {
+        "0": "acacia_planks",
+        "1": "white_concrete",
+        "2": "cyan_terracotta"
+      },
+      "name": "v4"
+    },
+    "v5": {
+      "map": {
+        "0": "dark_oak_planks",
+        "1": "white_concrete",
+        "2": "cyan_terracotta"
+      },
+      "name": "v5"
+    }
+  }
+}

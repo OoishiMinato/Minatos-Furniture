@@ -1,0 +1,88 @@
+{
+  "mappings": {
+    "pa": {
+      "map": {
+        "0": "minecraft:polished_andesite",
+        "1": "minecraft:white_concrete"
+      },
+      "name": "pa"
+    },
+    "default": {
+      "map": {
+        "0": "minecraft:oak_planks",
+        "1": "minecraft:white_concrete"
+      },
+      "name": "default"
+    },
+    "ac": {
+      "map": {
+        "0": "minecraft:acacia_planks",
+        "1": "minecraft:white_concrete"
+      },
+      "name": "ac"
+    },
+    "ma": {
+      "map": {
+        "0": "minecraft:mangrove_planks",
+        "1": "minecraft:white_concrete"
+      },
+      "name": "ma"
+    },
+    "pd": {
+      "map": {
+        "0": "minecraft:polished_diorite",
+        "1": "minecraft:white_concrete"
+      },
+      "name": "pd"
+    },
+    "bi": {
+      "map": {
+        "0": "minecraft:birch_planks",
+        "1": "minecraft:white_concrete"
+      },
+      "name": "bi"
+    },
+    "pg": {
+      "map": {
+        "0": "minecraft:polished_granite",
+        "1": "minecraft:white_concrete"
+      },
+      "name": "pg"
+    },
+    "sm": {
+      "map": {
+        "0": "minecraft:smooth_stone",
+        "1": "minecraft:white_concrete"
+      },
+      "name": "sm"
+    },
+    "ju": {
+      "map": {
+        "0": "minecraft:jungle_planks",
+        "1": "minecraft:white_concrete"
+      },
+      "name": "ju"
+    },
+    "sp": {
+      "map": {
+        "0": "minecraft:spruce_planks",
+        "1": "minecraft:white_concrete"
+      },
+      "name": "sp"
+    },
+    "da": {
+      "map": {
+        "0": "minecraft:dark_oak_planks",
+        "1": "minecraft:white_concrete"
+      },
+      "name": "da"
+    },
+    "sa": {
+      "map": {
+        "0": "minecraft:cherry_planks",
+        "1": "minecraft:white_concrete"
+      },
+      "name": "sa"
+    }
+  }
+}

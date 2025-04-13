@@ -1,0 +1,11 @@
+{
+  "parent": "minato_furniture:custom/shaved_ice_machine_1",
+  "textures": {
+    "all": "minecraft:block/black_concrete",
+    "particle": "minecraft:block/black_concrete",
+    "0": "minecraft:block/black_concrete",
+    "1": "minecraft:block/white_concrete",
+    "2": "minecraft:block/gray_concrete"
+  },
+  "render_type": "solid"
+}

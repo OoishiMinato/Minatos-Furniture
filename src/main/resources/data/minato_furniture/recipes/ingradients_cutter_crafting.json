@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:oak_planks"
+    },
+    "b": {
+      "item": "minato_furniture:gear"
+    },
+    "c": {
+      "item": "minecraft:glass_pane"
+    }
+  },
+  "result": {
+    "item": "minato_furniture:ingredients_cutter",
+    "count": 3
+  }
+}

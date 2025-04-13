@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 6,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.STONE#6"
+      },
+      {
+        "value": "Blocks.STONE#6"
+      },
+      {
+        "value": "Blocks.STONE#6"
+      },
+      {
+        "value": "Blocks.STONE#6"
+      },
+      {
+        "value": "CUSTOM:PolishedAndesiteVerticalBookshelf"
+      },
+      {
+        "value": "Blocks.STONE#6"
+      },
+      {
+        "value": "Blocks.STONE#6"
+      },
+      {
+        "value": "Blocks.STONE#6"
+      },
+      {
+        "value": "Blocks.STONE#6"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PolishedAndesiteVerticalBookshelf"
+    },
+    "name": "polished_andesite_vertical_bookshelf_crafting",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    " ac",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:white_concrete"
+    },
+    "b": {
+      "item": "minato_furniture:gear"
+    },
+    "c": {
+      "item": "minecraft:stone_button"
+    }
+  },
+  "result": {
+    "item": "minato_furniture:fan_block",
+    "count": 1
+  }
+}

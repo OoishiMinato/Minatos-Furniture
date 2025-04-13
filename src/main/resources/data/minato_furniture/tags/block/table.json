@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "minato_furniture:oak_table",
+    "minato_furniture:spruce_table",
+    "minato_furniture:birch_table",
+    "minato_furniture:jungle_table",
+    "minato_furniture:acacia_table",
+    "minato_furniture:dark_oak_table",
+    "minato_furniture:smooth_stone_table",
+    "minato_furniture:polished_granite_table",
+    "minato_furniture:polished_diorite_table",
+    "minato_furniture:polished_andesite_table",
+    "minato_furniture:mangrove_table",
+    "minato_furniture:cherry_table",
+    "minato_furniture:connected_oak_table",
+    "minato_furniture:connected_spruce_table",
+    "minato_furniture:connected_birch_table",
+    "minato_furniture:connected_jungle_table",
+    "minato_furniture:connected_acacia_table",
+    "minato_furniture:connected_dark_oak_table",
+    "minato_furniture:connected_polished_granite_table",
+    "minato_furniture:connected_polished_diorite_table",
+    "minato_furniture:connected_polished_andesite_table",
+    "minato_furniture:connected_mangrove_table",
+    "minato_furniture:connected_cherry_table"
+  ]
+}

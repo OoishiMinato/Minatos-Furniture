@@ -1,0 +1,9 @@
+{
+  "parent": "minato_furniture:custom/chair",
+  "textures": {
+    "all": "minecraft:block/smooth_stone",
+    "particle": "minecraft:block/smooth_stone",
+    "1": "minecraft:block/smooth_stone"
+  },
+  "render_type": "solid"
+}

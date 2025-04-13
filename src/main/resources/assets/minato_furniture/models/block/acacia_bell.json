@@ -1,0 +1,10 @@
+{
+  "parent": "minato_furniture:custom/bell",
+  "textures": {
+    "all": "minecraft:block/acacia_planks",
+    "particle": "minecraft:block/acacia_planks",
+    "0": "minecraft:block/acacia_planks",
+    "1": "minecraft:block/white_concrete"
+  },
+  "render_type": "solid"
+}

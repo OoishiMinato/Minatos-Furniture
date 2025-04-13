@@ -1,0 +1,17 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "minecraft:light_gray_concrete",
+        "1": "minecraft:black_concrete",
+        "2": "minecraft:white_concrete",
+        "3": "minecraft:iron_block",
+        "4": "minecraft:red_concrete",
+        "5": "blue_concrete",
+        "6": "yellow_concrete",
+        "missing": "light_gray_concrete"
+      },
+      "name": "default"
+    }
+  }
+}

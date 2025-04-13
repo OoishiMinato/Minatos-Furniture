@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:white_concrete"
+    },
+    "2": {
+      "item": "minecraft:white_concrete"
+    },
+    "3": {
+      "item": "minecraft:glass_pane"
+    },
+    "5": {
+      "item": "minecraft:glass_pane"
+    },
+    "6": {
+      "item": "minecraft:white_concrete"
+    },
+    "7": {
+      "item": "minecraft:white_concrete"
+    },
+    "8": {
+      "item": "minecraft:white_concrete"
+    }
+  },
+  "result": {
+    "item": "minato_furniture:shower_room_item",
+    "count": 1
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "mappings": {
+    "polished_granite": {
+      "map": {
+        "0": "minecraft:polished_granite",
+        "3": "minecraft:bookshelf"
+      },
+      "name": "polished_granite"
+    },
+    "default": {
+      "map": {
+        "0": "minecraft:oak_planks",
+        "3": "minecraft:bookshelf"
+      },
+      "name": "default"
+    },
+    "birch": {
+      "map": {
+        "0": "minecraft:birch_planks",
+        "3": "minecraft:bookshelf"
+      },
+      "name": "birch"
+    },
+    "polished_diorite": {
+      "map": {
+        "0": "minecraft:polished_diorite",
+        "3": "minecraft:bookshelf"
+      },
+      "name": "polished_diorite"
+    },
+    "acacia": {
+      "map": {
+        "0": "minecraft:acacia_planks",
+        "3": "minecraft:bookshelf"
+      },
+      "name": "acacia"
+    },
+    "jungle": {
+      "map": {
+        "0": "minecraft:jungle_planks",
+        "3": "minecraft:bookshelf"
+      },
+      "name": "jungle"
+    },
+    "darkoak": {
+      "map": {
+        "0": "minecraft:dark_oak_planks",
+        "3": "minecraft:bookshelf"
+      },
+      "name": "darkoak"
+    },
+    "smooth_stone": {
+      "map": {
+        "0": "minecraft:smooth_stone",
+        "3": "minecraft:bookshelf"
+      },
+      "name": "smooth_stone"
+    },
+    "polished_andesite": {
+      "map": {
+        "0": "minecraft:polished_andesite",
+        "3": "minecraft:bookshelf"
+      },
+      "name": "polished_andesite"
+    },
+    "spruce": {
+      "map": {
+        "0": "minecraft:spruce_planks",
+        "3": "minecraft:bookshelf"
+      },
+      "name": "spruce"
+    },
+    "mangrove": {
+      "map": {
+        "0": "minecraft:mangrove_planks",
+        "3": "minecraft:bookshelf"
+      },
+      "name": "mangrove"
+    },
+    "sakura": {
+      "map": {
+        "0": "minecraft:cherry_planks",
+        "3": "minecraft:bookshelf"
+      },
+      "name": "sakura"
+    }
+  }
+}

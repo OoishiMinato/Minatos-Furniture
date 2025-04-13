@@ -1,0 +1,84 @@
+{
+  "mappings": {
+    "speaker2": {
+      "map": {
+        "3": "spruce_planks",
+        "4": "black_concrete",
+        "5": "white_concrete_powder"
+      },
+      "name": "speaker2"
+    },
+    "default": {
+      "map": {
+        "3": "oak_planks",
+        "4": "black_concrete",
+        "5": "white_concrete_powder"
+      },
+      "name": "default"
+    },
+    "speaker6": {
+      "map": {
+        "3": "dark_oak_planks",
+        "4": "black_concrete",
+        "5": "white_concrete_powder"
+      },
+      "name": "speaker6"
+    },
+    "speaker5": {
+      "map": {
+        "3": "acacia_planks",
+        "4": "black_concrete",
+        "5": "white_concrete_powder"
+      },
+      "name": "speaker5"
+    },
+    "speaker4": {
+      "map": {
+        "3": "jungle_planks",
+        "4": "black_concrete",
+        "5": "white_concrete_powder"
+      },
+      "name": "speaker4"
+    },
+    "speaker3": {
+      "map": {
+        "3": "birch_planks",
+        "4": "black_concrete",
+        "5": "white_concrete_powder"
+      },
+      "name": "speaker3"
+    },
+    "speaker9": {
+      "map": {
+        "3": "polished_diorite",
+        "4": "black_concrete",
+        "5": "white_concrete_powder"
+      },
+      "name": "speaker9"
+    },
+    "speaker8": {
+      "map": {
+        "3": "polished_granite",
+        "4": "black_concrete",
+        "5": "white_concrete_powder"
+      },
+      "name": "speaker8"
+    },
+    "speaker7": {
+      "map": {
+        "3": "smooth_stone",
+        "4": "black_concrete",
+        "5": "white_concrete_powder"
+      },
+      "name": "speaker7"
+    },
+    "speaker10": {
+      "map": {
+        "3": "polished_andesite",
+        "4": "black_concrete",
+        "5": "white_concrete_powder"
+      },
+      "name": "speaker10"
+    }
+  }
+}

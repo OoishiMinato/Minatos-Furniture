@@ -1,0 +1,8 @@
+{
+  "parent": "minato_furniture:custom/refrigerator",
+  "textures": {
+    "0": "minecraft:block/white_concrete",
+    "1": "minecraft:block/gray_concrete",
+    "particle": "minecraft:item/iron_door"
+  }
+}

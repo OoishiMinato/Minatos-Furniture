@@ -1,0 +1,17 @@
+{
+  "parent": "minato_furniture:custom/toilet",
+  "textures": {
+    "all": "minecraft:block/white_concrete",
+    "particle": "minecraft:block/white_concrete",
+    "0": "minato_furniture:block/stop",
+    "1": "minato_furniture:block/oshiri",
+    "2": "minato_furniture:block/bide",
+    "3": "minato_furniture:block/washlet",
+    "4": "minato_furniture:block/yowaku",
+    "5": "minato_furniture:block/tuyoku",
+    "7": "minato_furniture:block/white",
+    "8": "minecraft:block/white_concrete",
+    "9": "minecraft:block/oak_log"
+  },
+  "render_type": "solid"
+}

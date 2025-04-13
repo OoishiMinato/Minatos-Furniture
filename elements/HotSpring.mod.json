@@ -1,0 +1,54 @@
+{
+  "_fv": 73,
+  "_type": "fluid",
+  "definition": {
+    "name": "Hot Spring",
+    "bucketName": "Hot Spring Bucket",
+    "textureStill": "bath_water",
+    "textureFlowing": "bath_water",
+    "hasFog": false,
+    "tintType": "No tint",
+    "canMultiply": false,
+    "flowRate": 5,
+    "levelDecrease": 1,
+    "slopeFindDistance": 4,
+    "spawnParticles": true,
+    "dripParticle": {
+      "value": "CAMPFIRE_COSY_SMOKE"
+    },
+    "flowStrength": 1.0,
+    "luminosity": 0,
+    "density": 1000,
+    "viscosity": 1000,
+    "temperature": 453,
+    "type": "WATER",
+    "generateBucket": true,
+    "textureBucket": "",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:MinatoFurniture"
+      }
+    ],
+    "emptySound": {
+      "value": ""
+    },
+    "rarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "resistance": 100.0,
+    "luminance": 0,
+    "lightOpacity": 1,
+    "emissiveRendering": false,
+    "tickRate": 5,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "colorOnMap": "DEFAULT",
+    "onTickUpdate": {
+      "name": "HotSpringteitukuGengXinShi"
+    },
+    "onEntityCollides": {
+      "name": "HotSpringmobupureiyagaburotukutoChongTusitatoki"
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "mappings": {
+    "v6": {
+      "map": {
+        "0": "minecraft:smooth_stone"
+      },
+      "name": "v6"
+    },
+    "v7": {
+      "map": {
+        "0": "minecraft:polished_granite"
+      },
+      "name": "v7"
+    },
+    "default": {
+      "map": {
+        "0": "minecraft:oak_log"
+      },
+      "name": "default"
+    },
+    "v8": {
+      "map": {
+        "0": "minecraft:polished_diorite"
+      },
+      "name": "v8"
+    },
+    "v9": {
+      "map": {
+        "0": "minecraft:polished_andesite"
+      },
+      "name": "v9"
+    },
+    "v1": {
+      "map": {
+        "0": "minecraft:spruce_log"
+      },
+      "name": "v1"
+    },
+    "v2": {
+      "map": {
+        "0": "minecraft:birch_log"
+      },
+      "name": "v2"
+    },
+    "v3": {
+      "map": {
+        "0": "minecraft:jungle_log"
+      },
+      "name": "v3"
+    },
+    "v4": {
+      "map": {
+        "0": "minecraft:acacia_log"
+      },
+      "name": "v4"
+    },
+    "v5": {
+      "map": {
+        "0": "minecraft:dark_oak_log"
+      },
+      "name": "v5"
+    },
+    "mangrove": {
+      "map": {
+        "0": "minecraft:mangrove_log"
+      },
+      "name": "mangrove"
+    },
+    "sakura": {
+      "map": {
+        "0": "minecraft:cherry_log"
+      },
+      "name": "sakura"
+    }
+  }
+}

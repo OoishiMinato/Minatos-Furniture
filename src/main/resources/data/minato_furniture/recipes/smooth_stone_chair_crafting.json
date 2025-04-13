@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  a",
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:smooth_stone"
+    }
+  },
+  "result": {
+    "item": "minato_furniture:smooth_stone_chair",
+    "count": 4
+  }
+}

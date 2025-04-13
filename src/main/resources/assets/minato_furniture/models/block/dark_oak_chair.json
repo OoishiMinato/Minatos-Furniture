@@ -1,0 +1,9 @@
+{
+  "parent": "minato_furniture:custom/chair",
+  "textures": {
+    "all": "minecraft:block/dark_oak_log",
+    "particle": "minecraft:block/dark_oak_log",
+    "1": "minecraft:block/dark_oak_log"
+  },
+  "render_type": "solid"
+}

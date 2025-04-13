@@ -1,0 +1,10 @@
+{
+  "parent": "minato_furniture:custom/wall_shelf",
+  "textures": {
+    "all": "minato_furniture:blocks/polished_granite",
+    "particle": "minato_furniture:blocks/polished_granite",
+    "0": "minato_furniture:blocks/polished_granite",
+    "1": "minato_furniture:blocks/white_concrete",
+    "2": "minato_furniture:blocks/cyan_terracotta"
+  }
+}

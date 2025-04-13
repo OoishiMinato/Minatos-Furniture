@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:black_concrete"
+    },
+    "b": {
+      "item": "minato_furniture:gear"
+    },
+    "c": {
+      "item": "minecraft:white_concrete"
+    }
+  },
+  "result": {
+    "item": "minato_furniture:shaved_ice_machine",
+    "count": 1
+  }
+}

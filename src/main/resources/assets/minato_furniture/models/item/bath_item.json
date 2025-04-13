@@ -1,0 +1,7 @@
+{
+  "parent": "minato_furniture:custom/bath_item",
+  "textures": {
+    "1": "minato_furniture:blocks/white_concrete",
+    "particle": "minato_furniture:items/acacia_door_bottom"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:white_concrete"
+    },
+    "1": {
+      "item": "minecraft:water_bucket"
+    },
+    "2": {
+      "item": "minecraft:white_concrete"
+    },
+    "3": {
+      "item": "minecraft:dark_oak_planks"
+    },
+    "4": {
+      "item": "minecraft:dark_oak_planks"
+    },
+    "5": {
+      "item": "minecraft:dark_oak_planks"
+    }
+  },
+  "result": {
+    "item": "minato_furniture:dark_oak_kitchen_washbasin",
+    "count": 1
+  }
+}

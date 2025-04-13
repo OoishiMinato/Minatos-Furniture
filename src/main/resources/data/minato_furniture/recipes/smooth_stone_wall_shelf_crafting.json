@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:smooth_stone"
+    },
+    "1": {
+      "item": "minecraft:smooth_stone"
+    },
+    "2": {
+      "item": "minecraft:white_concrete"
+    },
+    "3": {
+      "item": "minecraft:smooth_stone"
+    },
+    "4": {
+      "item": "minecraft:chest"
+    },
+    "5": {
+      "item": "minecraft:white_concrete"
+    },
+    "6": {
+      "item": "minecraft:smooth_stone"
+    },
+    "7": {
+      "item": "minecraft:smooth_stone"
+    },
+    "8": {
+      "item": "minecraft:white_concrete"
+    }
+  },
+  "result": {
+    "item": "minato_furniture:smooth_stone_wall_shelf",
+    "count": 1
+  }
+}

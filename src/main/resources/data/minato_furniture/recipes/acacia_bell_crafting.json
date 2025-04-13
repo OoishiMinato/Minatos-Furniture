@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    "c "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:acacia_planks"
+    },
+    "b": {
+      "item": "minecraft:white_concrete"
+    },
+    "c": {
+      "item": "minecraft:note_block"
+    }
+  },
+  "result": {
+    "item": "minato_furniture:acacia_bell",
+    "count": 1
+  }
+}

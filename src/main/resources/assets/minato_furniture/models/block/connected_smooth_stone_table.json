@@ -1,0 +1,9 @@
+{
+  "parent": "minato_furniture:custom/connected_table",
+  "textures": {
+    "all": "minecraft:block/smooth_stone",
+    "particle": "minecraft:block/smooth_stone",
+    "0": "minecraft:block/smooth_stone"
+  },
+  "render_type": "solid"
+}

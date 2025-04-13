@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=north,blockstate=0": {
+      "model": "minato_furniture:block/smooth_stone_bell"
+    },
+    "facing=east,blockstate=0": {
+      "model": "minato_furniture:block/smooth_stone_bell",
+      "y": 90
+    },
+    "facing=south,blockstate=0": {
+      "model": "minato_furniture:block/smooth_stone_bell",
+      "y": 180
+    },
+    "facing=west,blockstate=0": {
+      "model": "minato_furniture:block/smooth_stone_bell",
+      "y": 270
+    },
+    "facing=north,blockstate=1": {
+      "model": "minato_furniture:block/smooth_stone_bell_on_blockstate_0"
+    },
+    "facing=east,blockstate=1": {
+      "model": "minato_furniture:block/smooth_stone_bell_on_blockstate_0",
+      "y": 90
+    },
+    "facing=south,blockstate=1": {
+      "model": "minato_furniture:block/smooth_stone_bell_on_blockstate_0",
+      "y": 180
+    },
+    "facing=west,blockstate=1": {
+      "model": "minato_furniture:block/smooth_stone_bell_on_blockstate_0",
+      "y": 270
+    }
+  }
+}

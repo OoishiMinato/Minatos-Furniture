@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "minato_furniture:blocks/polished_diorite_vertical_bookshelf",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minato_furniture:polished_diorite_vertical_bookshelf"
+        }
+      ]
+    }
+  ]
+}

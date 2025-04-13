@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:white_concrete"
+    },
+    "1": {
+      "item": "minecraft:white_concrete"
+    },
+    "2": {
+      "item": "minecraft:white_concrete"
+    },
+    "3": {
+      "item": "minecraft:polished_granite"
+    },
+    "4": {
+      "item": "minecraft:polished_granite"
+    },
+    "5": {
+      "item": "minecraft:polished_granite"
+    }
+  },
+  "result": {
+    "item": "minato_furniture:polished_granite_kitchen_counter",
+    "count": 1
+  }
+}

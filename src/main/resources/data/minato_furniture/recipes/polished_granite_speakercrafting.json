@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:polished_granite"
+    },
+    "1": {
+      "item": "minecraft:polished_granite"
+    },
+    "2": {
+      "item": "minecraft:polished_granite"
+    },
+    "3": {
+      "item": "minecraft:polished_granite"
+    },
+    "4": {
+      "item": "minecraft:note_block"
+    },
+    "5": {
+      "item": "minecraft:polished_granite"
+    },
+    "6": {
+      "item": "minecraft:polished_granite"
+    },
+    "7": {
+      "item": "minecraft:polished_granite"
+    },
+    "8": {
+      "item": "minecraft:polished_granite"
+    }
+  },
+  "result": {
+    "item": "minato_furniture:polished_granite_speaker",
+    "count": 1
+  }
+}

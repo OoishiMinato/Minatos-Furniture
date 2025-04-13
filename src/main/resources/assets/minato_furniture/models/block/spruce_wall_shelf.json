@@ -1,0 +1,10 @@
+{
+  "parent": "minato_furniture:custom/wall_shelf",
+  "textures": {
+    "all": "minato_furniture:blocks/spruce_planks",
+    "particle": "minato_furniture:blocks/spruce_planks",
+    "0": "minato_furniture:blocks/spruce_planks",
+    "1": "minato_furniture:blocks/white_concrete",
+    "2": "minato_furniture:blocks/cyan_terracotta"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "minato_furniture:custom/kitchen_counter",
+  "textures": {
+    "all": "minato_furniture:blocks/polished_andesite",
+    "particle": "minato_furniture:blocks/polished_andesite",
+    "5": "minato_furniture:blocks/white_concrete",
+    "6": "minato_furniture:blocks/polished_andesite"
+  }
+}

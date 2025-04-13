@@ -1,0 +1,9 @@
+{
+  "parent": "minato_furniture:custom/pc_opne",
+  "textures": {
+    "all": "minato_furniture:blocks/polished_blackstone",
+    "particle": "minato_furniture:blocks/polished_blackstone",
+    "0": "minato_furniture:blocks/polished_blackstone",
+    "1": "minato_furniture:blocks/black_concrete"
+  }
+}

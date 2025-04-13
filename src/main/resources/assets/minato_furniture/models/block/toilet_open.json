@@ -1,0 +1,18 @@
+{
+  "parent": "minato_furniture:custom/toilet_open",
+  "textures": {
+    "all": "minecraft:block/white_concrete",
+    "particle": "minecraft:block/white_concrete",
+    "11": "minato_furniture:block/stop",
+    "12": "minato_furniture:block/white",
+    "14": "minato_furniture:block/yowaku",
+    "15": "minato_furniture:block/tuyoku",
+    "16": "minato_furniture:block/bide",
+    "17": "minato_furniture:block/oshiri",
+    "18": "minecraft:block/white_concrete",
+    "19": "minecraft:block/oak_log",
+    "9": "minato_furniture:block/washlet",
+    "20": "minato_furniture:block/water_toilet"
+  },
+  "render_type": "solid"
+}

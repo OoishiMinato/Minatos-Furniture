@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.STONE#4"
+      },
+      {
+        "value": "Blocks.STONE#4"
+      },
+      {
+        "value": "Blocks.STONE#4"
+      },
+      {
+        "value": "Blocks.STONE#4"
+      },
+      {
+        "value": "Blocks.STONE#4"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.STONE#4"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PolishedDioriteChair"
+    },
+    "name": "polished_diorite_chair_crafting",
+    "namespace": "mod"
+  }
+}

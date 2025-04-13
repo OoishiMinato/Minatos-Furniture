@@ -1,0 +1,9 @@
+{
+  "parent": "minato_furniture:custom/bath_1",
+  "textures": {
+    "all": "minecraft:block/white_concrete",
+    "particle": "minecraft:block/white_concrete",
+    "0": "minecraft:block/white_concrete"
+  },
+  "render_type": "solid"
+}

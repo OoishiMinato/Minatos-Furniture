@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "minecraft:glass",
+        "1": "minecraft:black_concrete",
+        "missing": "minecraft:black_concrete"
+      },
+      "name": "default"
+    }
+  }
+}

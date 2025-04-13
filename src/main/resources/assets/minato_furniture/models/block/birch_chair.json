@@ -1,0 +1,9 @@
+{
+  "parent": "minato_furniture:custom/chair",
+  "textures": {
+    "all": "minecraft:block/birch_log",
+    "particle": "minecraft:block/birch_log",
+    "1": "minecraft:block/birch_log"
+  },
+  "render_type": "solid"
+}

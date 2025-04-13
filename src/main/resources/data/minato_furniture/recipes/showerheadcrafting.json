@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    " 4 ",
+    "678"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:gray_concrete"
+    },
+    "2": {
+      "item": "minecraft:gray_concrete"
+    },
+    "4": {
+      "item": "minecraft:gray_concrete"
+    },
+    "6": {
+      "item": "minecraft:gray_concrete"
+    },
+    "7": {
+      "item": "minecraft:gray_concrete"
+    },
+    "8": {
+      "item": "minecraft:gray_concrete"
+    }
+  },
+  "result": {
+    "item": "minato_furniture:showerhead",
+    "count": 3
+  }
+}

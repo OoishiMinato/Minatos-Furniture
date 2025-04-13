@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "minecraft:iron_block",
+        "1": "minecraft:black_concrete",
+        "2": "minecraft:dark_oak_planks",
+        "missing": "minecraft:iron_block"
+      },
+      "name": "default"
+    }
+  }
+}

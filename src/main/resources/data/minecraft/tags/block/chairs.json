@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "minato_furniture:oak_chair",
+    "minato_furniture:spruce_chair",
+    "minato_furniture:birch_chair",
+    "minato_furniture:jungle_chair",
+    "minato_furniture:acacia_chair",
+    "minato_furniture:dark_oak_chair",
+    "minato_furniture:smooth_stone_chair",
+    "minato_furniture:polished_granite_chair",
+    "minato_furniture:polished_diorite_chair",
+    "minato_furniture:polished_andesite_chair",
+    "minato_furniture:toilet_open",
+    "minato_furniture:mangrove_chair",
+    "minato_furniture:cherry_chair"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "minato_furniture:block/cup"
+    },
+    "facing=east": {
+      "model": "minato_furniture:block/cup",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "minato_furniture:block/cup",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "minato_furniture:block/cup",
+      "y": 270
+    }
+  }
+}

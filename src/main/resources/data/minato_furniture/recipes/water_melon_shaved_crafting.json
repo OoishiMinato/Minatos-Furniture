@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    "ca"
+  ],
+  "key": {
+    "a": {
+      "item": "minato_furniture:shaved_ice"
+    },
+    "b": {
+      "item": "minecraft:melon_slice"
+    },
+    "c": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "minato_furniture:water_melon_shaved",
+    "count": 1
+  }
+}

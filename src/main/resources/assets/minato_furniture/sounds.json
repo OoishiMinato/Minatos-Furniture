@@ -1,0 +1,52 @@
+{
+  "deru": {
+    "sounds": [
+      {
+        "name": "minato_furniture:se-395497428",
+        "stream": false
+      }
+    ]
+  },
+  "ireru": {
+    "sounds": [
+      {
+        "name": "minato_furniture:se-695411320",
+        "stream": false
+      }
+    ]
+  },
+  "kezuru": {
+    "sounds": [
+      {
+        "name": "minato_furniture:kezuru13",
+        "stream": false
+      }
+    ]
+  },
+  "senpuki": {
+    "sounds": [
+      {
+        "name": "minato_furniture:shan_feng_ji_noruo_hui_zhuan_",
+        "stream": false
+      }
+    ]
+  },
+  "flush": {
+    "subtitle": "subtitles.flush",
+    "sounds": [
+      {
+        "name": "minato_furniture:nagasu",
+        "stream": false
+      }
+    ]
+  },
+  "bell": {
+    "subtitle": "subtitles.bell",
+    "sounds": [
+      {
+        "name": "minato_furniture:doatiyaimu1",
+        "stream": false
+      }
+    ]
+  }
+}

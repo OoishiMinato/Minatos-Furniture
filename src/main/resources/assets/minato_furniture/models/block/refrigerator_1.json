@@ -1,0 +1,10 @@
+{
+  "parent": "minato_furniture:custom/refrigerator_1",
+  "textures": {
+    "all": "minecraft:block/white_concrete",
+    "particle": "minecraft:block/white_concrete",
+    "2": "minecraft:block/white_concrete",
+    "3": "minecraft:block/cyan_terracotta"
+  },
+  "render_type": "solid"
+}

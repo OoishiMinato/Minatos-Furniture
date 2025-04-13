@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.CONCRETE#0"
+      },
+      {
+        "value": "CUSTOM:Gear"
+      },
+      {
+        "value": "Blocks.CONCRETE#0"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.CONCRETE#0"
+      },
+      {
+        "value": "Blocks.STONE_BUTTON"
+      },
+      {
+        "value": "Blocks.CONCRETE#0"
+      },
+      {
+        "value": "Blocks.CONCRETE#0"
+      },
+      {
+        "value": "Blocks.CONCRETE#0"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:FanBlock"
+    },
+    "name": "fan_block_crafting",
+    "namespace": "mod"
+  }
+}

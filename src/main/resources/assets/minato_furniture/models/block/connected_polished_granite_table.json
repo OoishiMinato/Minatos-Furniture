@@ -1,0 +1,9 @@
+{
+  "parent": "minato_furniture:custom/connected_table",
+  "textures": {
+    "all": "minecraft:block/polished_granite",
+    "particle": "minecraft:block/polished_granite",
+    "0": "minecraft:block/polished_granite"
+  },
+  "render_type": "solid"
+}

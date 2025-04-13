@@ -1,0 +1,9 @@
+{
+  "parent": "minato_furniture:custom/chair",
+  "textures": {
+    "all": "minecraft:block/jungle_log",
+    "particle": "minecraft:block/jungle_log",
+    "1": "minecraft:block/jungle_log"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "minato_furniture:custom/senmenday",
+  "textures": {
+    "all": "minato_furniture:blocks/white_concrete",
+    "particle": "minato_furniture:blocks/white_concrete",
+    "0": "minato_furniture:blocks/white_concrete",
+    "1": "minato_furniture:blocks/blue_wool",
+    "2": "minato_furniture:blocks/light_gray_concrete"
+  }
+}

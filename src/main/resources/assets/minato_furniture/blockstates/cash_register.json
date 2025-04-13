@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "minato_furniture:block/cash_register"
+    },
+    "facing=east": {
+      "model": "minato_furniture:block/cash_register",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "minato_furniture:block/cash_register",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "minato_furniture:block/cash_register",
+      "y": 270
+    }
+  }
+}

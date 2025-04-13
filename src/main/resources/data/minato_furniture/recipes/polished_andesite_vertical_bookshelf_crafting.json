@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:polished_andesite"
+    },
+    "b": {
+      "item": "minato_furniture:polished_andesite_vertical_bookshelf"
+    }
+  },
+  "result": {
+    "item": "minato_furniture:polished_andesite_vertical_bookshelf",
+    "count": 6
+  }
+}

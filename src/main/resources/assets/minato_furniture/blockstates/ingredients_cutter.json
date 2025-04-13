@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "minato_furniture:block/ingredients_cutter"
+    },
+    "facing=east": {
+      "model": "minato_furniture:block/ingredients_cutter",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "minato_furniture:block/ingredients_cutter",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "minato_furniture:block/ingredients_cutter",
+      "y": 270
+    }
+  }
+}

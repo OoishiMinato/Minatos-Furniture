@@ -1,0 +1,9 @@
+{
+  "parent": "minato_furniture:custom/shower_room",
+  "textures": {
+    "0": "minato_furniture:blocks/glass",
+    "1": "minato_furniture:blocks/black_concrete",
+    "missing": "minato_furniture:blocks/black_concrete",
+    "particle": "minato_furniture:items/acacia_door_bottom"
+  }
+}

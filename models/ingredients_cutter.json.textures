@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "minecraft:glass",
+        "1": "minecraft:oak_planks",
+        "2": "minecraft:iron_block",
+        "missing": "minecraft:iron_block"
+      },
+      "name": "default"
+    }
+  }
+}

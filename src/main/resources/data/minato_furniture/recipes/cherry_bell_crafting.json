@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    "c "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:cherry_planks"
+    },
+    "b": {
+      "item": "minecraft:white_concrete"
+    },
+    "c": {
+      "item": "minecraft:note_block"
+    }
+  },
+  "result": {
+    "item": "minato_furniture:cherry_bell",
+    "count": 1
+  }
+}

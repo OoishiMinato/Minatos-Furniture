@@ -1,0 +1,8 @@
+{
+  "parent": "minato_furniture:custom/cup",
+  "textures": {
+    "all": "minato_furniture:blocks/glass",
+    "particle": "minato_furniture:blocks/glass",
+    "1": "minato_furniture:blocks/glass"
+  }
+}

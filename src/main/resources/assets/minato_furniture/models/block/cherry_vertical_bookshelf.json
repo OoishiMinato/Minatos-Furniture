@@ -1,0 +1,10 @@
+{
+  "parent": "minato_furniture:custom/bookshelf",
+  "textures": {
+    "all": "minecraft:block/cherry_planks",
+    "particle": "minecraft:block/cherry_planks",
+    "0": "minecraft:block/cherry_planks",
+    "3": "minecraft:block/bookshelf"
+  },
+  "render_type": "solid"
+}

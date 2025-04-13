@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:polished_diorite"
+    },
+    "1": {
+      "item": "minecraft:polished_diorite"
+    },
+    "2": {
+      "item": "minecraft:polished_diorite"
+    },
+    "3": {
+      "item": "minecraft:polished_diorite"
+    },
+    "4": {
+      "item": "minecraft:note_block"
+    },
+    "5": {
+      "item": "minecraft:polished_diorite"
+    },
+    "6": {
+      "item": "minecraft:polished_diorite"
+    },
+    "7": {
+      "item": "minecraft:polished_diorite"
+    },
+    "8": {
+      "item": "minecraft:polished_diorite"
+    }
+  },
+  "result": {
+    "item": "minato_furniture:polished_diorite_speaker",
+    "count": 1
+  }
+}

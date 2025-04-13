@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:polished_andesite"
+    },
+    "1": {
+      "item": "minecraft:polished_andesite"
+    },
+    "2": {
+      "item": "minecraft:polished_andesite"
+    },
+    "4": {
+      "item": "minecraft:polished_andesite"
+    },
+    "7": {
+      "item": "minecraft:polished_andesite"
+    }
+  },
+  "result": {
+    "item": "minato_furniture:polished_andsite_table",
+    "count": 4
+  }
+}

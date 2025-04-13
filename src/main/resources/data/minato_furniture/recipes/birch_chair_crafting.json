@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  a",
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:birch_log"
+    }
+  },
+  "result": {
+    "item": "minato_furniture:birch_chair",
+    "count": 4
+  }
+}

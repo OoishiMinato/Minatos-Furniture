@@ -1,0 +1,9 @@
+{
+  "parent": "minato_furniture:custom/chair",
+  "textures": {
+    "all": "minecraft:block/acacia_log",
+    "particle": "minecraft:block/acacia_log",
+    "1": "minecraft:block/acacia_log"
+  },
+  "render_type": "solid"
+}

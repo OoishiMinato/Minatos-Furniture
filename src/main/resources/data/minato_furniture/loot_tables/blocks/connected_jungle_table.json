@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "minato_furniture:blocks/connected_jungle_table",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minato_furniture:jungle_table"
+        }
+      ]
+    }
+  ]
+}

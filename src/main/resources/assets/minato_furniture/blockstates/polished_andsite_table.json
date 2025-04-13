@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "minato_furniture:block/polished_andsite_table"
+    },
+    "facing=east": {
+      "model": "minato_furniture:block/polished_andsite_table",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "minato_furniture:block/polished_andsite_table",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "minato_furniture:block/polished_andsite_table",
+      "y": 270
+    }
+  }
+}

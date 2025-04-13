@@ -1,0 +1,10 @@
+{
+  "parent": "minato_furniture:custom/kitchen_washbesin",
+  "textures": {
+    "all": "minato_furniture:blocks/smooth_stone",
+    "particle": "minato_furniture:blocks/smooth_stone",
+    "2": "minato_furniture:blocks/cyan_terracotta",
+    "3": "minato_furniture:blocks/white_concrete",
+    "4": "minato_furniture:blocks/smooth_stone"
+  }
+}

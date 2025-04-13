@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_block"
+    },
+    "b": {
+      "item": "minecraft:magma_block"
+    },
+    "c": {
+      "item": "minecraft:stone"
+    }
+  },
+  "result": {
+    "item": "minato_furniture:high_heat_oven",
+    "count": 1
+  }
+}

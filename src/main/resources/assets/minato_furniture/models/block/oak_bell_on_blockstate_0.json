@@ -1,0 +1,10 @@
+{
+  "parent": "minato_furniture:custom/bell_on",
+  "textures": {
+    "all": "minecraft:block/oak_planks",
+    "particle": "minecraft:block/oak_planks",
+    "0": "minecraft:block/oak_planks",
+    "1": "minecraft:block/white_concrete"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,11 @@
+{
+  "parent": "minato_furniture:custom/reji",
+  "textures": {
+    "all": "minato_furniture:blocks/light_gray_concrete",
+    "particle": "minato_furniture:blocks/light_gray_concrete",
+    "4": "minato_furniture:blocks/light_gray_concrete",
+    "5": "minato_furniture:blocks/white_concrete",
+    "6": "minato_furniture:blocks/black_concrete",
+    "7": "minato_furniture:blocks/gray_concrete"
+  }
+}

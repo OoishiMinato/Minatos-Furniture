@@ -1,0 +1,12 @@
+{
+  "parent": "minato_furniture:custom/fan",
+  "textures": {
+    "all": "minecraft:block/white_concrete",
+    "particle": "minecraft:block/white_concrete",
+    "4": "minecraft:block/white_concrete",
+    "5": "minecraft:block/gray_concrete",
+    "6": "minato_furniture:block/fan1",
+    "7": "minato_furniture:block/fan2"
+  },
+  "render_type": "cutout"
+}

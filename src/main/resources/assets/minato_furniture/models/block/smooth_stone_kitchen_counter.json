@@ -1,0 +1,9 @@
+{
+  "parent": "minato_furniture:custom/kitchen_counter",
+  "textures": {
+    "all": "minato_furniture:blocks/smooth_stone",
+    "particle": "minato_furniture:blocks/smooth_stone",
+    "5": "minato_furniture:blocks/white_concrete",
+    "6": "minato_furniture:blocks/smooth_stone"
+  }
+}

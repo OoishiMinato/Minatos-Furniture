@@ -1,0 +1,11 @@
+{
+  "parent": "minato_furniture:custom/microwave",
+  "textures": {
+    "all": "minato_furniture:blocks/white_concrete",
+    "particle": "minato_furniture:blocks/white_concrete",
+    "0": "minato_furniture:blocks/black_concrete",
+    "1": "minato_furniture:blocks/white_concrete",
+    "2": "minato_furniture:blocks/cyan_terracotta",
+    "missing": "minato_furniture:blocks/air"
+  }
+}
