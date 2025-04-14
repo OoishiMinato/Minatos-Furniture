@@ -6,7 +6,7 @@ From chairs and tables to shelves and lamps, enhance your builds with aesthetic 
 ## 🔧 Compatibility
 
 - **Minecraft version**: 1.20.1 , 1.21.1  (Versions that are no longer being updated : 1.16.5 , 1.18.2 , 1.19.2 , 1.20.4)
-- **Mod loader**: Forge(1.16.5~1.20.1) , NeoForge(1.20.4~)
+- **Mod loader**: Forge(1.16.5～1.20.1) , NeoForge(1.20.4～)
 - **Created with**: MCreator
 
 ## 📦 Download
