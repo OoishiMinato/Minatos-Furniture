@@ -14,10 +14,6 @@ From chairs and tables to shelves and lamps, enhance your builds with aesthetic 
 - [Download on CurseForge](https://www.curseforge.com/minecraft/mc-mods/minato-furniture)  
 - [Download on Modrinth](https://modrinth.com/mod/minato-furniture)
 
-## 📸 Screenshots
-
-_Add screenshots here to show your furniture in action!_
-
 ## 🪑 Features
 
 - Wooden chairs and tables (oak, dark oak, birch, etc.)
