@@ -1,18 +1,28 @@
-# Gradle
-.gradle/
-build/
-out/
 
-# IDE
-.idea/
-*.iml
+# --- Gradle build files ---
+/build/
+/out/
+/bin/
+/.gradle/
 
-# OS
+# --- IDE settings ---
+/.idea/
+/*.iml
+/eclipse/
+/runs/
+
+# --- MCreator specific ---
+/run/
+/generated/
+/MCreatorLocalStorage/
+/.mcreator/
+
+# --- OS / Editor / Misc ---
 .DS_Store
 Thumbs.db
-
-# MCreator
-generated/
-MCreatorLocalStorage/
 *.swp
-run/
+*.log
+
+# --- Backup or temp files ---
+*.bak
+*.tmp
