@@ -20,10 +20,8 @@ _Add screenshots here to show your furniture in action!_
 
 ## 🪑 Features
 
-- Wooden chairs (oak, dark oak, birch, etc.)
-- Sofas in multiple colors
-- Wall-mounted shelves
-- Decorative items such as vases and lamps
+- Wooden chairs and tables (oak, dark oak, birch, etc.)
+- bath and toilet
 - And more to come!
 
 ## ❓ FAQ
@@ -33,6 +31,9 @@ A: Yes, it is primarily built using MCreator.
 
 **Q: Is it compatible with other mods?**  
 A: No known conflicts as of now.
+
+**Q: Updates such as version 1.16.5?**
+A:I might update it, but I don't usually update it. I'll deal with any bugs that I find.
 
 ## 📜 License
 
