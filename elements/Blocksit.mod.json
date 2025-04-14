@@ -24,9 +24,9 @@
     "modelLayers": [],
     "animations": [],
     "modelWidth": 0.74,
-    "modelHeight": 0.6,
+    "modelHeight": 0.7000000000000001,
     "modelShadowSize": 0.0,
-    "mountedYOffset": 0.4,
+    "mountedYOffset": 0.0,
     "hasSpawnEgg": false,
     "spawnEggBaseColor": {
       "value": -1,

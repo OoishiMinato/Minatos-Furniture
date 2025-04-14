@@ -80,11 +80,6 @@ public class BlocksitEntity extends PathfinderMob {
 	}
 
 	@Override
-	public double getPassengersRidingOffset() {
-		return super.getPassengersRidingOffset() + 0.4;
-	}
-
-	@Override
 	public boolean causeFallDamage(float l, float d, DamageSource source) {
 		return false;
 	}

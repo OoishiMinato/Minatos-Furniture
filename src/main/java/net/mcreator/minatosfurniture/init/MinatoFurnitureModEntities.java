@@ -23,7 +23,7 @@ import net.mcreator.minatosfurniture.MinatoFurnitureMod;
 public class MinatoFurnitureModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, MinatoFurnitureMod.MODID);
 	public static final RegistryObject<EntityType<BlocksitEntity>> BLOCKSIT = register("blocksit",
-			EntityType.Builder.<BlocksitEntity>of(BlocksitEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BlocksitEntity::new).fireImmune().sized(0.74f, 0.6f));
+			EntityType.Builder.<BlocksitEntity>of(BlocksitEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BlocksitEntity::new).fireImmune().sized(0.74f, 0.7f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
