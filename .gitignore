@@ -1,28 +1,39 @@
 
-# --- Gradle build files ---
+# --- Ignore build and temporary output ---
 /build/
 /out/
 /bin/
 /.gradle/
+.runs/
+.run/
+runs/
+run/
 
-# --- IDE settings ---
-/.idea/
-/*.iml
-/eclipse/
-/runs/
+# --- Ignore IDE configuration files ---
+.idea/
+*.iml
+.eclipse/
 
-# --- MCreator specific ---
-/run/
+# --- Ignore MCreator temporary and local files ---
 /generated/
 /MCreatorLocalStorage/
 /.mcreator/
 
-# --- OS / Editor / Misc ---
+# --- Ignore OS/editor temporary files ---
 .DS_Store
 Thumbs.db
 *.swp
 *.log
-
-# --- Backup or temp files ---
 *.bak
 *.tmp
+
+# --- Keep essential Gradle and MCreator files ---
+# Do NOT ignore:
+# - build.gradle
+# - settings.gradle
+# - gradle/ folder
+# - gradlew / gradlew.bat
+# - *.mcreator files
+# - mcreator.workspace
+# - src/ folder
+# - assets/ and data/ folders
