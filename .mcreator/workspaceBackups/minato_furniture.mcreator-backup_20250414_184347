@@ -1,0 +1,4218 @@
+{
+  "mod_elements": [
+    {
+      "name": "OakChair",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_chair",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/blockstates/oak_chair.json",
+          "src/main/resources/assets/minato_furniture/models/item/oak_chair.json",
+          "src/main/resources/assets/minato_furniture/models/block/oak_chair.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/OakChairBlock.java",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/oak_chair.json"
+        ]
+      }
+    },
+    {
+      "name": "MinatoFurniture",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minato_furniture",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "SpruceChair",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spruce_chair",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/models/block/spruce_chair.json",
+          "src/main/resources/assets/minato_furniture/models/item/spruce_chair.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/SpruceChairBlock.java",
+          "src/main/resources/assets/minato_furniture/blockstates/spruce_chair.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/spruce_chair.json"
+        ]
+      }
+    },
+    {
+      "name": "BlocksitenteiteinotitukuGengXinShi",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blocksitenteiteinotituku_geng_xin_shi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/procedures/BlocksitenteiteinotitukuGengXinShiProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "BirchChair",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "birch_chair",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/models/item/birch_chair.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/BirchChairBlock.java",
+          "src/main/resources/assets/minato_furniture/blockstates/birch_chair.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/birch_chair.json",
+          "src/main/resources/assets/minato_furniture/models/block/birch_chair.json"
+        ]
+      }
+    },
+    {
+      "name": "JungleChair",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jungle_chair",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/jungle_chair.json",
+          "src/main/resources/assets/minato_furniture/models/item/jungle_chair.json",
+          "src/main/resources/assets/minato_furniture/models/block/jungle_chair.json",
+          "src/main/resources/assets/minato_furniture/blockstates/jungle_chair.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/JungleChairBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "AcaciaChair",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acacia_chair",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/models/block/acacia_chair.json",
+          "src/main/resources/assets/minato_furniture/models/item/acacia_chair.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/acacia_chair.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/AcaciaChairBlock.java",
+          "src/main/resources/assets/minato_furniture/blockstates/acacia_chair.json"
+        ]
+      }
+    },
+    {
+      "name": "DarkOakChair",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_oak_chair",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/block/DarkOakChairBlock.java",
+          "src/main/resources/assets/minato_furniture/blockstates/dark_oak_chair.json",
+          "src/main/resources/assets/minato_furniture/models/block/dark_oak_chair.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/dark_oak_chair.json",
+          "src/main/resources/assets/minato_furniture/models/item/dark_oak_chair.json"
+        ]
+      }
+    },
+    {
+      "name": "SmoothStoneChair",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smooth_stone_chair",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/models/item/smooth_stone_chair.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/smooth_stone_chair.json",
+          "src/main/resources/assets/minato_furniture/blockstates/smooth_stone_chair.json",
+          "src/main/resources/assets/minato_furniture/models/block/smooth_stone_chair.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/SmoothStoneChairBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "PolishedGraniteChair",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_granite_chair",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/blockstates/polished_granite_chair.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/polished_granite_chair.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/PolishedGraniteChairBlock.java",
+          "src/main/resources/assets/minato_furniture/models/item/polished_granite_chair.json",
+          "src/main/resources/assets/minato_furniture/models/block/polished_granite_chair.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedDioriteChair",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_diorite_chair",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/models/item/polished_diorite_chair.json",
+          "src/main/resources/assets/minato_furniture/models/block/polished_diorite_chair.json",
+          "src/main/resources/assets/minato_furniture/blockstates/polished_diorite_chair.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/PolishedDioriteChairBlock.java",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/polished_diorite_chair.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedAndsiteChair",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_andesite_chair",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/block/PolishedAndsiteChairBlock.java",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/polished_andesite_chair.json",
+          "src/main/resources/assets/minato_furniture/models/block/polished_andesite_chair.json",
+          "src/main/resources/assets/minato_furniture/models/item/polished_andesite_chair.json",
+          "src/main/resources/assets/minato_furniture/blockstates/polished_andesite_chair.json"
+        ]
+      }
+    },
+    {
+      "name": "OakChairCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_chair_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/oak_chair_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "SpruceChairCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spruce_chair_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/spruce_chair_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "BirchChairCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "birch_chair_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/birch_chair_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "JungleChairCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jungle_chair_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/jungle_chair_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "AcaciaChairCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acacia_chair_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/acacia_chair_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "DarkOakChairCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_oak_chair_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/dark_oak_chair_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "SmoothStoneChairCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smooth_stone_chair_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/smooth_stone_chair_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedGraniteChairCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_granite_chair_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/polished_granite_chair_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedDioriteChairCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_diorite_chair_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/polished_diorite_chair_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "Bath1",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bath_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/blockstates/bath_1.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/Bath1Block.java",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/bath_1.json",
+          "src/main/resources/assets/minato_furniture/models/item/bath_1.json",
+          "src/main/resources/assets/minato_furniture/models/block/bath_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Bath2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bath_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/block/Bath2Block.java",
+          "src/main/resources/assets/minato_furniture/models/block/bath_2.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/bath_2.json",
+          "src/main/resources/assets/minato_furniture/models/item/bath_2.json",
+          "src/main/resources/assets/minato_furniture/blockstates/bath_2.json"
+        ]
+      }
+    },
+    {
+      "name": "BathburotukuwoYoukuritukusitatoki",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bathburotukuwo_youkuritukusitatoki",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "direction",
+            "type": "direction"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/procedures/BathburotukuwoYoukuritukusitatokiProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Bath",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bath",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/item/BathItem.java",
+          "src/main/resources/assets/minato_furniture/models/item/bath.json"
+        ]
+      }
+    },
+    {
+      "name": "Bath3",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bath_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/models/item/bath_3.json",
+          "src/main/resources/assets/minato_furniture/blockstates/bath_3.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/Bath3Block.java",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/bath_3.json",
+          "src/main/resources/assets/minato_furniture/models/block/bath_3.json"
+        ]
+      }
+    },
+    {
+      "name": "Bath1burotukugapureyaniPoHuaisaretatoki",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bath_1burotukugapureyani_po_huaisaretatoki",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/procedures/Bath1burotukugapureyaniPoHuaisaretatokiProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Bath1TNT",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bath_1_tnt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/procedures/Bath1TNTProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Bath2burotukugapureyaniPoHuaisaretatoki",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bath_2burotukugapureyani_po_huaisaretatoki",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/procedures/Bath2burotukugapureyaniPoHuaisaretatokiProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Bath2TNT",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bath_2_tnt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/procedures/Bath2TNTProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Bath2burotukugaYoukuritukusaretatoki",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bath_2burotukuga_youkuritukusaretatoki",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/procedures/Bath2burotukugaYoukuritukusaretatokiProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Bath3burotukugaYoukuritukusaretatoki",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bath_3burotukuga_youkuritukusaretatoki",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/procedures/Bath3burotukugaYoukuritukusaretatokiProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "OakTable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/models/block/oak_table.json",
+          "src/main/resources/assets/minato_furniture/models/item/oak_table.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/OakTableBlock.java",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/oak_table.json",
+          "src/main/resources/assets/minato_furniture/blockstates/oak_table.json"
+        ]
+      }
+    },
+    {
+      "name": "SpruceTable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spruce_table",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/block/SpruceTableBlock.java",
+          "src/main/resources/assets/minato_furniture/models/block/spruce_table.json",
+          "src/main/resources/assets/minato_furniture/models/item/spruce_table.json",
+          "src/main/resources/assets/minato_furniture/blockstates/spruce_table.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/spruce_table.json"
+        ]
+      }
+    },
+    {
+      "name": "BirchTable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "birch_table",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/block/BirchTableBlock.java",
+          "src/main/resources/assets/minato_furniture/models/item/birch_table.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/birch_table.json",
+          "src/main/resources/assets/minato_furniture/blockstates/birch_table.json",
+          "src/main/resources/assets/minato_furniture/models/block/birch_table.json"
+        ]
+      }
+    },
+    {
+      "name": "JungleTable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jungle_table",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/block/JungleTableBlock.java",
+          "src/main/resources/assets/minato_furniture/models/item/jungle_table.json",
+          "src/main/resources/assets/minato_furniture/models/block/jungle_table.json",
+          "src/main/resources/assets/minato_furniture/blockstates/jungle_table.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/jungle_table.json"
+        ]
+      }
+    },
+    {
+      "name": "AcaciaTable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acacia_table",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/block/AcaciaTableBlock.java",
+          "src/main/resources/assets/minato_furniture/models/block/acacia_table.json",
+          "src/main/resources/assets/minato_furniture/blockstates/acacia_table.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/acacia_table.json",
+          "src/main/resources/assets/minato_furniture/models/item/acacia_table.json"
+        ]
+      }
+    },
+    {
+      "name": "DarkOakTable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_oak_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/dark_oak_table.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/DarkOakTableBlock.java",
+          "src/main/resources/assets/minato_furniture/models/block/dark_oak_table.json",
+          "src/main/resources/assets/minato_furniture/blockstates/dark_oak_table.json",
+          "src/main/resources/assets/minato_furniture/models/item/dark_oak_table.json"
+        ]
+      }
+    },
+    {
+      "name": "SmoothStoneTable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smooth_stone_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/smooth_stone_table.json",
+          "src/main/resources/assets/minato_furniture/models/item/smooth_stone_table.json",
+          "src/main/resources/assets/minato_furniture/models/block/smooth_stone_table.json",
+          "src/main/resources/assets/minato_furniture/blockstates/smooth_stone_table.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/SmoothStoneTableBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "PolishedGraniteTable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_granite_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/blockstates/polished_granite_table.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/polished_granite_table.json",
+          "src/main/resources/assets/minato_furniture/models/block/polished_granite_table.json",
+          "src/main/resources/assets/minato_furniture/models/item/polished_granite_table.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/PolishedGraniteTableBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "PolishedDioriteTable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_diorite_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/models/item/polished_diorite_table.json",
+          "src/main/resources/assets/minato_furniture/models/block/polished_diorite_table.json",
+          "src/main/resources/assets/minato_furniture/blockstates/polished_diorite_table.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/polished_diorite_table.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/PolishedDioriteTableBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "PolishedAndesiteTable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_andesite_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/blockstates/polished_andesite_table.json",
+          "src/main/resources/assets/minato_furniture/models/block/polished_andesite_table.json",
+          "src/main/resources/assets/minato_furniture/models/item/polished_andesite_table.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/polished_andesite_table.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/PolishedAndesiteTableBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "PolishedAndesiteChairCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_andesite_chair_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/polished_andesite_chair_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "OakTableCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_table_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/oak_table_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "SpruceTableCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spruce_table_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/spruce_table_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "BirchTableCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "birch_table_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/birch_table_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "JungleTableCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jungle_table_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/jungle_table_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "AcaciaTableCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acacia_table_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/acacia_table_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "DarkOakTableCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_oak_table_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/dark_oak_table_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "SmoothStoneTableCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smooth_stone_table_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/smooth_stone_table_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedGraniteTableCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_granite_table_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/polished_granite_table_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedDioriteTableCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_diorite_table_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/polished_diorite_table_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedAndesiteTableCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_andesite_table_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/polished_andesite_table_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "Refrigerator1",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refrigerator_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/block/Refrigerator1Block.java",
+          "src/main/resources/assets/minato_furniture/blockstates/refrigerator_1.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/entity/Refrigerator1BlockEntity.java",
+          "src/main/resources/assets/minato_furniture/models/item/refrigerator_1.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/refrigerator_1.json",
+          "src/main/resources/assets/minato_furniture/models/block/refrigerator_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Refrigerator2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refrigerator_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/refrigerator_2.json",
+          "src/main/resources/assets/minato_furniture/models/item/refrigerator_2.json",
+          "src/main/resources/assets/minato_furniture/models/block/refrigerator_2.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/Refrigerator2Block.java",
+          "src/main/java/net/mcreator/minatosfurniture/block/entity/Refrigerator2BlockEntity.java",
+          "src/main/resources/assets/minato_furniture/blockstates/refrigerator_2.json"
+        ]
+      }
+    },
+    {
+      "name": "RefrigeratorburotukuwoYoukuritukusitatoki",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refrigeratorburotukuwo_youkuritukusitatoki",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "direction",
+            "type": "direction"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/procedures/RefrigeratorburotukuwoYoukuritukusitatokiProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Refrigerator",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refrigerator",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/models/item/refrigerator.json",
+          "src/main/java/net/mcreator/minatosfurniture/item/RefrigeratorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Refrigerator1burotukugapureyaniPoHuaisaretatoki",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refrigerator_1burotukugapureyani_po_huaisaretatoki",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/procedures/Refrigerator1burotukugapureyaniPoHuaisaretatokiProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Refrigerator1TNT",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refrigerator_1_tnt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/procedures/Refrigerator1TNTProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Refrigerator2burotukugapureyaniPoHuaisaretatoki",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refrigerator_2burotukugapureyani_po_huaisaretatoki",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/procedures/Refrigerator2burotukugapureyaniPoHuaisaretatokiProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Refrigerator2TNT",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refrigerator_2_tnt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/procedures/Refrigerator2TNTProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Refrigerator2GUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refrigerator_2_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/client/gui/Refrigerator2GUIScreen.java",
+          "src/main/java/net/mcreator/minatosfurniture/world/inventory/Refrigerator2GUIMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "Refrigerator2GUIpuro",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refrigerator_2_gu_ipuro",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/procedures/Refrigerator2GUIpuroProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Refrigerator1GUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refrigerator_1_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/world/inventory/Refrigerator1GUIMenu.java",
+          "src/main/java/net/mcreator/minatosfurniture/client/gui/Refrigerator1GUIScreen.java",
+          "src/main/java/net/mcreator/minatosfurniture/network/Refrigerator1GUIButtonMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "IngredientsCutter",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ingredients_cutter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/block/IngredientsCutterBlock.java",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/ingredients_cutter.json",
+          "src/main/resources/assets/minato_furniture/models/item/ingredients_cutter.json",
+          "src/main/resources/assets/minato_furniture/models/block/ingredients_cutter.json",
+          "src/main/resources/assets/minato_furniture/blockstates/ingredients_cutter.json"
+        ]
+      }
+    },
+    {
+      "name": "CutCookedBeef",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_cooked_beef",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/models/item/cut_cooked_beef.json",
+          "src/main/java/net/mcreator/minatosfurniture/item/CutCookedBeefItem.java"
+        ]
+      }
+    },
+    {
+      "name": "IngredientsCutterburotukugaYoukuritukusaretatoki",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ingredients_cutterburotukuga_youkuritukusaretatoki",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/procedures/IngredientsCutterburotukugaYoukuritukusaretatokiProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "CutCookedPorkchop",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_cooked_porkchop",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/item/CutCookedPorkchopItem.java",
+          "src/main/resources/assets/minato_furniture/models/item/cut_cooked_porkchop.json"
+        ]
+      }
+    },
+    {
+      "name": "MinatoFurnitureFoods",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minato_furniture_foods",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "CutCookedChicken",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_cooked_chicken",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/item/CutCookedChickenItem.java",
+          "src/main/resources/assets/minato_furniture/models/item/cut_cooked_chicken.json"
+        ]
+      }
+    },
+    {
+      "name": "RefrigeratorCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refrigerator_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/refrigerator_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "BathCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bath_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/bath_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "Gear",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gear",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/item/GearItem.java",
+          "src/main/resources/assets/minato_furniture/models/item/gear.json"
+        ]
+      }
+    },
+    {
+      "name": "GearCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gear_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/gear_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "IngradientsCutterCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ingradients_cutter_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/ingradients_cutter_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "CutCookedMutton",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_cooked_mutton",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/item/CutCookedMuttonItem.java",
+          "src/main/resources/assets/minato_furniture/models/item/cut_cooked_mutton.json"
+        ]
+      }
+    },
+    {
+      "name": "HotSpringteitukuGengXinShi",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hot_springteituku_geng_xin_shi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/procedures/HotSpringteitukuGengXinShiProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "HotSpring",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hot_spring",
+      "metadata": {
+        "gb": true,
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/item/HotSpringItem.java",
+          "src/main/resources/assets/minato_furniture/blockstates/hot_spring.json",
+          "src/main/java/net/mcreator/minatosfurniture/fluid/types/HotSpringFluidType.java",
+          "src/main/resources/assets/minato_furniture/models/item/hot_spring_bucket.json",
+          "src/main/resources/assets/minato_furniture/models/block/hot_spring.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/HotSpringBlock.java",
+          "src/main/java/net/mcreator/minatosfurniture/fluid/HotSpringFluid.java"
+        ]
+      }
+    },
+    {
+      "name": "HotSpringmobupureiyagaburotukutoChongTusitatoki",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hot_springmobupureiyagaburotukuto_chong_tusitatoki",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/procedures/HotSpringmobupureiyagaburotukutoChongTusitatokiProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ShowerHead",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shower_head",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/block/ShowerHeadBlock.java",
+          "src/main/resources/assets/minato_furniture/blockstates/shower_head.json",
+          "src/main/resources/assets/minato_furniture/models/block/shower_head.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/shower_head.json",
+          "src/main/resources/assets/minato_furniture/models/item/shower_head.json"
+        ]
+      }
+    },
+    {
+      "name": "ShowerHeadOn",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shower_head_on",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/models/block/shower_head_on.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/ShowerHeadOnBlock.java",
+          "src/main/resources/assets/minato_furniture/models/item/shower_head_on.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/shower_head_on.json",
+          "src/main/resources/assets/minato_furniture/blockstates/shower_head_on.json"
+        ]
+      }
+    },
+    {
+      "name": "ShowerHeadOnteitukuGengXinShi",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shower_head_onteituku_geng_xin_shi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/procedures/ShowerHeadOnteitukuGengXinShiProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ShowerHeadburotukugaYoukuritukusaretatoki",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shower_headburotukuga_youkuritukusaretatoki",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/procedures/ShowerHeadburotukugaYoukuritukusaretatokiProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ShowerHeadOnburotukugaYoukuritukusaretatoki",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shower_head_onburotukuga_youkuritukusaretatoki",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/procedures/ShowerHeadOnburotukugaYoukuritukusaretatokiProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ShavedIceMachine",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shaved_ice_machine",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/blockstates/shaved_ice_machine.json",
+          "src/main/resources/assets/minato_furniture/models/block/shaved_ice_machine.json",
+          "src/main/resources/assets/minato_furniture/models/item/shaved_ice_machine.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/shaved_ice_machine.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/ShavedIceMachineBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "ShavedIceMachine1",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shaved_ice_machine_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/block/ShavedIceMachine1Block.java",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/shaved_ice_machine_1.json",
+          "src/main/resources/assets/minato_furniture/blockstates/shaved_ice_machine_1.json",
+          "src/main/resources/assets/minato_furniture/models/item/shaved_ice_machine_1.json",
+          "src/main/resources/assets/minato_furniture/models/block/shaved_ice_machine_1.json"
+        ]
+      }
+    },
+    {
+      "name": "ShavedIceMachine2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shaved_ice_machine_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/block/ShavedIceMachine2Block.java",
+          "src/main/resources/assets/minato_furniture/models/item/shaved_ice_machine_2.json",
+          "src/main/resources/assets/minato_furniture/blockstates/shaved_ice_machine_2.json",
+          "src/main/resources/assets/minato_furniture/models/block/shaved_ice_machine_2.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/shaved_ice_machine_2.json"
+        ]
+      }
+    },
+    {
+      "name": "ShavedIceMachine3",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shaved_ice_machine_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/models/block/shaved_ice_machine_3.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/shaved_ice_machine_3.json",
+          "src/main/resources/assets/minato_furniture/models/item/shaved_ice_machine_3.json",
+          "src/main/resources/assets/minato_furniture/blockstates/shaved_ice_machine_3.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/ShavedIceMachine3Block.java"
+        ]
+      }
+    },
+    {
+      "name": "ShavedIceMachine4",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shaved_ice_machine_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/shaved_ice_machine_4.json",
+          "src/main/resources/assets/minato_furniture/models/item/shaved_ice_machine_4.json",
+          "src/main/resources/assets/minato_furniture/blockstates/shaved_ice_machine_4.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/ShavedIceMachine4Block.java",
+          "src/main/resources/assets/minato_furniture/models/block/shaved_ice_machine_4.json"
+        ]
+      }
+    },
+    {
+      "name": "ShavedIceMachine5",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shaved_ice_machine_5",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/block/ShavedIceMachine5Block.java",
+          "src/main/resources/assets/minato_furniture/blockstates/shaved_ice_machine_5.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/shaved_ice_machine_5.json",
+          "src/main/resources/assets/minato_furniture/models/item/shaved_ice_machine_5.json",
+          "src/main/resources/assets/minato_furniture/models/block/shaved_ice_machine_5.json"
+        ]
+      }
+    },
+    {
+      "name": "ShavedIceMachine6",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shaved_ice_machine_6",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/block/ShavedIceMachine6Block.java",
+          "src/main/resources/assets/minato_furniture/models/block/shaved_ice_machine_6.json",
+          "src/main/resources/assets/minato_furniture/models/item/shaved_ice_machine_6.json",
+          "src/main/resources/assets/minato_furniture/blockstates/shaved_ice_machine_6.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/shaved_ice_machine_6.json"
+        ]
+      }
+    },
+    {
+      "name": "ShavedIceMachine7",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shaved_ice_machine_7",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/shaved_ice_machine_7.json",
+          "src/main/resources/assets/minato_furniture/blockstates/shaved_ice_machine_7.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/ShavedIceMachine7Block.java",
+          "src/main/resources/assets/minato_furniture/models/item/shaved_ice_machine_7.json",
+          "src/main/resources/assets/minato_furniture/models/block/shaved_ice_machine_7.json"
+        ]
+      }
+    },
+    {
+      "name": "ShavedIceMachineInIce",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shaved_ice_machine_in_ice",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/block/ShavedIceMachineInIceBlock.java",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/shaved_ice_machine_in_ice.json",
+          "src/main/resources/assets/minato_furniture/blockstates/shaved_ice_machine_in_ice.json",
+          "src/main/resources/assets/minato_furniture/models/block/shaved_ice_machine_in_ice.json",
+          "src/main/resources/assets/minato_furniture/models/item/shaved_ice_machine_in_ice.json"
+        ]
+      }
+    },
+    {
+      "name": "ShavedIceMachineburotukugaYoukuritukusaretatoki",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shaved_ice_machineburotukuga_youkuritukusaretatoki",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/procedures/ShavedIceMachineburotukugaYoukuritukusaretatokiProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Shaved1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shaved_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/procedures/Shaved1Procedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Shaved2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shaved_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/procedures/Shaved2Procedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Shaved3",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shaved_3",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/procedures/Shaved3Procedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Shaved4",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shaved_4",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/procedures/Shaved4Procedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Shaved5",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shaved_5",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/procedures/Shaved5Procedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Shaved6",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shaved_6",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/procedures/Shaved6Procedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Shaved7",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shaved_7",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/procedures/Shaved7Procedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ShavedEND",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shaved_end",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/procedures/ShavedENDProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ShavedIce",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shaved_ice",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/models/item/shaved_ice.json",
+          "src/main/java/net/mcreator/minatosfurniture/item/ShavedIceItem.java"
+        ]
+      }
+    },
+    {
+      "name": "WatarMelonShaved",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_melon_shaved",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/models/item/water_melon_shaved.json",
+          "src/main/java/net/mcreator/minatosfurniture/item/WatarMelonShavedItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TV",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tv",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/block/TVBlock.java",
+          "src/main/resources/assets/minato_furniture/blockstates/tv.json",
+          "src/main/resources/assets/minato_furniture/models/block/tv.json",
+          "src/main/resources/assets/minato_furniture/models/item/tv.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/tv.json"
+        ]
+      }
+    },
+    {
+      "name": "TVOn",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tv_on",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/tv_on.json",
+          "src/main/resources/assets/minato_furniture/models/block/tv_on.json",
+          "src/main/resources/assets/minato_furniture/blockstates/tv_on.json",
+          "src/main/resources/assets/minato_furniture/models/item/tv_on.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/TVOnBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "FanBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fan_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/models/block/fan_block.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/fan_block.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/FanBlockBlock.java",
+          "src/main/resources/assets/minato_furniture/blockstates/fan_block.json",
+          "src/main/resources/assets/minato_furniture/models/item/fan_block.json"
+        ]
+      }
+    },
+    {
+      "name": "TVburotukugaYoukuritukusaretatoki",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_vburotukuga_youkuritukusaretatoki",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/procedures/TVburotukugaYoukuritukusaretatokiProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "TVOnburotukugaYoukuritukusaretatoki",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tv_onburotukuga_youkuritukusaretatoki",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/procedures/TVOnburotukugaYoukuritukusaretatokiProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Cool",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/potion/CoolMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "WaterMelonShavedCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_melon_shaved_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/water_melon_shaved_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "Fuel",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/models/item/fuel.json",
+          "src/main/java/net/mcreator/minatosfurniture/item/FuelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "FuelCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuel_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/fuel_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "Oven",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oven",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/client/gui/OvenScreen.java",
+          "src/main/java/net/mcreator/minatosfurniture/world/inventory/OvenMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "HighHeatOven",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "high_heat_oven",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/high_heat_oven.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/HighHeatOvenBlock.java",
+          "src/main/resources/assets/minato_furniture/models/block/high_heat_oven.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/entity/HighHeatOvenBlockEntity.java",
+          "src/main/resources/assets/minato_furniture/models/item/high_heat_oven.json",
+          "src/main/resources/assets/minato_furniture/blockstates/high_heat_oven.json"
+        ]
+      }
+    },
+    {
+      "name": "OvenGUIPro",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oven_gui_pro",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/procedures/OvenGUIProProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "FuelFire",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuel_fire",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Blocksit",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blocksit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/entity/BlocksitEntity.java",
+          "src/main/java/net/mcreator/minatosfurniture/client/renderer/BlocksitRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "ChairPro",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chair_pro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/procedures/ChairProProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "direction",
+            "type": "direction"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CutCookedRabbit",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_cooked_rabbit",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/models/item/cut_cooked_rabbit.json",
+          "src/main/java/net/mcreator/minatosfurniture/item/CutCookedRabbitItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Bath1Pro",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bath_1_pro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/procedures/Bath1ProProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OvenFirePro",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oven_fire_pro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/procedures/OvenFireProProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FanCool",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fan_cool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/procedures/FanCoolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ItsCool",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "its_cool",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/advancements/its_cool.json"
+        ]
+      }
+    },
+    {
+      "name": "ToiletOpen",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toilet_open",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/models/block/toilet_open.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/toilet_open.json",
+          "src/main/resources/assets/minato_furniture/models/item/toilet_open.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/ToiletOpenBlock.java",
+          "src/main/resources/assets/minato_furniture/blockstates/toilet_open.json"
+        ]
+      }
+    },
+    {
+      "name": "Toilet",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toilet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/blockstates/toilet.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/toilet.json",
+          "src/main/resources/assets/minato_furniture/models/item/toilet.json",
+          "src/main/resources/assets/minato_furniture/models/block/toilet.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/ToiletBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "ToiletPro",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toilet_pro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/procedures/ToiletProProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "direction",
+            "type": "direction"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ToiletPro2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toilet_pro_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/procedures/ToiletPro2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "direction",
+            "type": "direction"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OakBookshelf",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_vertical_bookshelf",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/models/block/oak_vertical_bookshelf.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/oak_vertical_bookshelf.json",
+          "src/main/resources/assets/minato_furniture/blockstates/oak_vertical_bookshelf.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/OakBookshelfBlock.java",
+          "src/main/resources/assets/minato_furniture/models/item/oak_vertical_bookshelf.json"
+        ]
+      }
+    },
+    {
+      "name": "SpruceVerticalBookshelf",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spruce_vertical_bookshelf",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/models/item/spruce_vertical_bookshelf.json",
+          "src/main/resources/assets/minato_furniture/models/block/spruce_vertical_bookshelf.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/spruce_vertical_bookshelf.json",
+          "src/main/resources/assets/minato_furniture/blockstates/spruce_vertical_bookshelf.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/SpruceVerticalBookshelfBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "BirchVerticalBookshelf",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "birch_vertical_bookshelf",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/block/BirchVerticalBookshelfBlock.java",
+          "src/main/resources/assets/minato_furniture/models/block/birch_vertical_bookshelf.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/birch_vertical_bookshelf.json",
+          "src/main/resources/assets/minato_furniture/models/item/birch_vertical_bookshelf.json",
+          "src/main/resources/assets/minato_furniture/blockstates/birch_vertical_bookshelf.json"
+        ]
+      }
+    },
+    {
+      "name": "MangroveChair",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mangrove_chair",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/models/item/mangrove_chair.json",
+          "src/main/resources/assets/minato_furniture/blockstates/mangrove_chair.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/MangroveChairBlock.java",
+          "src/main/resources/assets/minato_furniture/models/block/mangrove_chair.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/mangrove_chair.json"
+        ]
+      }
+    },
+    {
+      "name": "MangroveTable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mangrove_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/models/item/mangrove_table.json",
+          "src/main/resources/assets/minato_furniture/models/block/mangrove_table.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/mangrove_table.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/MangroveTableBlock.java",
+          "src/main/resources/assets/minato_furniture/blockstates/mangrove_table.json"
+        ]
+      }
+    },
+    {
+      "name": "CherryChair",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_chair",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/models/item/cherry_chair.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/cherry_chair.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/CherryChairBlock.java",
+          "src/main/resources/assets/minato_furniture/models/block/cherry_chair.json",
+          "src/main/resources/assets/minato_furniture/blockstates/cherry_chair.json"
+        ]
+      }
+    },
+    {
+      "name": "CherryTable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/models/item/cherry_table.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/cherry_table.json",
+          "src/main/resources/assets/minato_furniture/blockstates/cherry_table.json",
+          "src/main/resources/assets/minato_furniture/models/block/cherry_table.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/CherryTableBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "JungleVerticalBookshelf",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jungle_vertical_bookshelf",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/block/JungleVerticalBookshelfBlock.java",
+          "src/main/resources/assets/minato_furniture/models/item/jungle_vertical_bookshelf.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/jungle_vertical_bookshelf.json",
+          "src/main/resources/assets/minato_furniture/blockstates/jungle_vertical_bookshelf.json",
+          "src/main/resources/assets/minato_furniture/models/block/jungle_vertical_bookshelf.json"
+        ]
+      }
+    },
+    {
+      "name": "AcaciaVerticalBookshelf",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acacia_vertical_bookshelf",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/models/item/acacia_vertical_bookshelf.json",
+          "src/main/resources/assets/minato_furniture/blockstates/acacia_vertical_bookshelf.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/AcaciaVerticalBookshelfBlock.java",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/acacia_vertical_bookshelf.json",
+          "src/main/resources/assets/minato_furniture/models/block/acacia_vertical_bookshelf.json"
+        ]
+      }
+    },
+    {
+      "name": "DarkOakVerticalBookshelf",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_oak_vertical_bookshelf",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/dark_oak_vertical_bookshelf.json",
+          "src/main/resources/assets/minato_furniture/models/item/dark_oak_vertical_bookshelf.json",
+          "src/main/resources/assets/minato_furniture/models/block/dark_oak_vertical_bookshelf.json",
+          "src/main/resources/assets/minato_furniture/blockstates/dark_oak_vertical_bookshelf.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/DarkOakVerticalBookshelfBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "MangroveVerticalBookshelf",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mangrove_vertical_bookshelf",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/blockstates/mangrove_vertical_bookshelf.json",
+          "src/main/resources/assets/minato_furniture/models/item/mangrove_vertical_bookshelf.json",
+          "src/main/resources/assets/minato_furniture/models/block/mangrove_vertical_bookshelf.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/mangrove_vertical_bookshelf.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/MangroveVerticalBookshelfBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "CherryVerticalBookshelf",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_vertical_bookshelf",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/models/block/cherry_vertical_bookshelf.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/CherryVerticalBookshelfBlock.java",
+          "src/main/resources/assets/minato_furniture/models/item/cherry_vertical_bookshelf.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/cherry_vertical_bookshelf.json",
+          "src/main/resources/assets/minato_furniture/blockstates/cherry_vertical_bookshelf.json"
+        ]
+      }
+    },
+    {
+      "name": "SmoothStoneVerticalBookshelf",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smooth_stone_vertical_bookshelf",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/models/block/smooth_stone_vertical_bookshelf.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/smooth_stone_vertical_bookshelf.json",
+          "src/main/resources/assets/minato_furniture/blockstates/smooth_stone_vertical_bookshelf.json",
+          "src/main/resources/assets/minato_furniture/models/item/smooth_stone_vertical_bookshelf.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/SmoothStoneVerticalBookshelfBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "PolishedGraniteVerticalBookshelf",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_granite_vertical_bookshelf",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/blockstates/polished_granite_vertical_bookshelf.json",
+          "src/main/resources/assets/minato_furniture/models/item/polished_granite_vertical_bookshelf.json",
+          "src/main/resources/assets/minato_furniture/models/block/polished_granite_vertical_bookshelf.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/polished_granite_vertical_bookshelf.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/PolishedGraniteVerticalBookshelfBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "PolishedDioriteVerticalBookshelf",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_diorite_vertical_bookshelf",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/polished_diorite_vertical_bookshelf.json",
+          "src/main/resources/assets/minato_furniture/blockstates/polished_diorite_vertical_bookshelf.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/PolishedDioriteVerticalBookshelfBlock.java",
+          "src/main/resources/assets/minato_furniture/models/item/polished_diorite_vertical_bookshelf.json",
+          "src/main/resources/assets/minato_furniture/models/block/polished_diorite_vertical_bookshelf.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedAndesiteVerticalBookshelf",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_andesite_vertical_bookshelf",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/blockstates/polished_andesite_vertical_bookshelf.json",
+          "src/main/resources/assets/minato_furniture/models/block/polished_andesite_vertical_bookshelf.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/polished_andesite_vertical_bookshelf.json",
+          "src/main/resources/assets/minato_furniture/models/item/polished_andesite_vertical_bookshelf.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/PolishedAndesiteVerticalBookshelfBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "ConnectedOakTable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "connected_oak_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/models/block/connected_oak_table.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/connected_oak_table.json",
+          "src/main/resources/assets/minato_furniture/models/item/connected_oak_table.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/ConnectedOakTableBlock.java",
+          "src/main/resources/assets/minato_furniture/blockstates/connected_oak_table.json"
+        ]
+      }
+    },
+    {
+      "name": "ConnectedSpruceTable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "connected_spruce_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/connected_spruce_table.json",
+          "src/main/resources/assets/minato_furniture/blockstates/connected_spruce_table.json",
+          "src/main/resources/assets/minato_furniture/models/item/connected_spruce_table.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/ConnectedSpruceTableBlock.java",
+          "src/main/resources/assets/minato_furniture/models/block/connected_spruce_table.json"
+        ]
+      }
+    },
+    {
+      "name": "ConnectedBirchTable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "connected_birch_table",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/block/ConnectedBirchTableBlock.java",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/connected_birch_table.json",
+          "src/main/resources/assets/minato_furniture/models/item/connected_birch_table.json",
+          "src/main/resources/assets/minato_furniture/models/block/connected_birch_table.json",
+          "src/main/resources/assets/minato_furniture/blockstates/connected_birch_table.json"
+        ]
+      }
+    },
+    {
+      "name": "ConnectedJungleTable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "connected_jungle_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/models/item/connected_jungle_table.json",
+          "src/main/resources/assets/minato_furniture/models/block/connected_jungle_table.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/ConnectedJungleTableBlock.java",
+          "src/main/resources/assets/minato_furniture/blockstates/connected_jungle_table.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/connected_jungle_table.json"
+        ]
+      }
+    },
+    {
+      "name": "ConnectedAcaciaTable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "connected_acacia_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/blockstates/connected_acacia_table.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/connected_acacia_table.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/ConnectedAcaciaTableBlock.java",
+          "src/main/resources/assets/minato_furniture/models/item/connected_acacia_table.json",
+          "src/main/resources/assets/minato_furniture/models/block/connected_acacia_table.json"
+        ]
+      }
+    },
+    {
+      "name": "ConnectedDarkOakTable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "connected_dark_oak_table",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/block/ConnectedDarkOakTableBlock.java",
+          "src/main/resources/assets/minato_furniture/models/block/connected_dark_oak_table.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/connected_dark_oak_table.json",
+          "src/main/resources/assets/minato_furniture/blockstates/connected_dark_oak_table.json",
+          "src/main/resources/assets/minato_furniture/models/item/connected_dark_oak_table.json"
+        ]
+      }
+    },
+    {
+      "name": "ConnectedSmoothStoneTable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "connected_smooth_stone_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/connected_smooth_stone_table.json",
+          "src/main/resources/assets/minato_furniture/blockstates/connected_smooth_stone_table.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/ConnectedSmoothStoneTableBlock.java",
+          "src/main/resources/assets/minato_furniture/models/item/connected_smooth_stone_table.json",
+          "src/main/resources/assets/minato_furniture/models/block/connected_smooth_stone_table.json"
+        ]
+      }
+    },
+    {
+      "name": "ConnectedPolishedGraniteTable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "connected_polished_granite_table",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/block/ConnectedPolishedGraniteTableBlock.java",
+          "src/main/resources/assets/minato_furniture/blockstates/connected_polished_granite_table.json",
+          "src/main/resources/assets/minato_furniture/models/item/connected_polished_granite_table.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/connected_polished_granite_table.json",
+          "src/main/resources/assets/minato_furniture/models/block/connected_polished_granite_table.json"
+        ]
+      }
+    },
+    {
+      "name": "ConnectedPolishedDioriteTable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "connected_polished_diorite_table",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/block/ConnectedPolishedDioriteTableBlock.java",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/connected_polished_diorite_table.json",
+          "src/main/resources/assets/minato_furniture/models/block/connected_polished_diorite_table.json",
+          "src/main/resources/assets/minato_furniture/models/item/connected_polished_diorite_table.json",
+          "src/main/resources/assets/minato_furniture/blockstates/connected_polished_diorite_table.json"
+        ]
+      }
+    },
+    {
+      "name": "ConnectedPolishedAndesiteTable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "connected_polished_andesite_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/blockstates/connected_polished_andesite_table.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/ConnectedPolishedAndesiteTableBlock.java",
+          "src/main/resources/assets/minato_furniture/models/block/connected_polished_andesite_table.json",
+          "src/main/resources/assets/minato_furniture/models/item/connected_polished_andesite_table.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/connected_polished_andesite_table.json"
+        ]
+      }
+    },
+    {
+      "name": "ConnectedMangroveTable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "connected_mangrove_table",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/block/ConnectedMangroveTableBlock.java",
+          "src/main/resources/assets/minato_furniture/models/block/connected_mangrove_table.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/connected_mangrove_table.json",
+          "src/main/resources/assets/minato_furniture/models/item/connected_mangrove_table.json",
+          "src/main/resources/assets/minato_furniture/blockstates/connected_mangrove_table.json"
+        ]
+      }
+    },
+    {
+      "name": "ConnectedCherryTable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "connected_cherry_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/models/block/connected_cherry_table.json",
+          "src/main/resources/assets/minato_furniture/models/item/connected_cherry_table.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/connected_cherry_table.json",
+          "src/main/resources/assets/minato_furniture/blockstates/connected_cherry_table.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/ConnectedCherryTableBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "TableConnect",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "table_connect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/procedures/TableConnectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TableDisconnect",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "table_disconnect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/procedures/TableDisconnectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OakVerticalBookshelf",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_vertical_bookshelf",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/oak_vertical_bookshelf_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "SpruceVerticalBookshelfCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spruce_vertical_bookshelf_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/spruce_vertical_bookshelf_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "BirchVerticalBookshelfCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "birch_vertical_bookshelf_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/birch_vertical_bookshelf_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "JungleVerticalBookshelfCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jungle_vertical_bookshelf_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/jungle_vertical_bookshelf_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "AcaciaVerticalBookshelfCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acacia_vertical_bookshelf_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/acacia_vertical_bookshelf_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "DarkOakVerticalBookshelfCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_oak_vertical_bookshelf_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/dark_oak_vertical_bookshelf_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "MangroveVerticalBookshelfCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mangrove_vertical_bookshelf_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/mangrove_vertical_bookshelf_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "CherryVerticalBookshelfCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_vertical_bookshelf_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/cherry_vertical_bookshelf_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "SmoothStoneVerticalBookshelfCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smooth_stone_vertical_bookshelf_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/smooth_stone_vertical_bookshelf_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedGraniteVerticalBookshelfCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_granite_vertical_bookshelf_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/polished_granite_vertical_bookshelf_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedDioriteVerticalBookshelfCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_diorite_vertical_bookshelf_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/polished_diorite_vertical_bookshelf_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedAndesiteVerticalBookshelfCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_andesite_vertical_bookshelf_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/polished_andesite_vertical_bookshelf_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "CherryChairCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_chair_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/cherry_chair_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "MangroveChairCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mangrove_chair_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/mangrove_chair_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "CherryTableCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_table_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/cherry_table_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "MangroveTableCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mangrove_table_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/mangrove_table_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "FanBlockCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fan_block_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/fan_block_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "ShavedIceMachineCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shaved_ice_machine_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/shaved_ice_machine_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "HighHeatOvenCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "high_heat_oven_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/high_heat_oven_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "TVCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tv_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/tv_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "OakBell",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_bell",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/models/item/oak_bell.json",
+          "src/main/resources/assets/minato_furniture/blockstates/oak_bell.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/oak_bell.json",
+          "src/main/resources/assets/minato_furniture/models/block/oak_bell.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/OakBellBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Bell",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bell",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/procedures/BellProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OakBellOn",
+      "type": "blockstates",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_bell_on",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/models/block/oak_bell_on_blockstate_0.json"
+        ]
+      }
+    },
+    {
+      "name": "SpruceBell",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spruce_bell",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/models/item/spruce_bell.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/spruce_bell.json",
+          "src/main/resources/assets/minato_furniture/models/block/spruce_bell.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/SpruceBellBlock.java",
+          "src/main/resources/assets/minato_furniture/blockstates/spruce_bell.json"
+        ]
+      }
+    },
+    {
+      "name": "SpruceBellOn",
+      "type": "blockstates",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spruce_bell_on",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/models/block/spruce_bell_on_blockstate_0.json"
+        ]
+      }
+    },
+    {
+      "name": "BirchBell",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "birch_bell",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/models/item/birch_bell.json",
+          "src/main/resources/assets/minato_furniture/models/block/birch_bell.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/BirchBellBlock.java",
+          "src/main/resources/assets/minato_furniture/blockstates/birch_bell.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/birch_bell.json"
+        ]
+      }
+    },
+    {
+      "name": "BirchBellOn",
+      "type": "blockstates",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "birch_bell_on",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/models/block/birch_bell_on_blockstate_0.json"
+        ]
+      }
+    },
+    {
+      "name": "JungleBell",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jungle_bell",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/block/JungleBellBlock.java",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/jungle_bell.json",
+          "src/main/resources/assets/minato_furniture/models/block/jungle_bell.json",
+          "src/main/resources/assets/minato_furniture/models/item/jungle_bell.json",
+          "src/main/resources/assets/minato_furniture/blockstates/jungle_bell.json"
+        ]
+      }
+    },
+    {
+      "name": "JungleBellOn",
+      "type": "blockstates",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jungle_bell_on",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/models/block/jungle_bell_on_blockstate_0.json"
+        ]
+      }
+    },
+    {
+      "name": "AcaciaBell",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acacia_bell",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/block/AcaciaBellBlock.java",
+          "src/main/resources/assets/minato_furniture/blockstates/acacia_bell.json",
+          "src/main/resources/assets/minato_furniture/models/block/acacia_bell.json",
+          "src/main/resources/assets/minato_furniture/models/item/acacia_bell.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/acacia_bell.json"
+        ]
+      }
+    },
+    {
+      "name": "AcaciaBellOn",
+      "type": "blockstates",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acacia_bell_on",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/models/block/acacia_bell_on_blockstate_0.json"
+        ]
+      }
+    },
+    {
+      "name": "DarkOakBell",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_oak_bell",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/block/DarkOakBellBlock.java",
+          "src/main/resources/assets/minato_furniture/models/item/dark_oak_bell.json",
+          "src/main/resources/assets/minato_furniture/blockstates/dark_oak_bell.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/dark_oak_bell.json",
+          "src/main/resources/assets/minato_furniture/models/block/dark_oak_bell.json"
+        ]
+      }
+    },
+    {
+      "name": "DarkOakBellOn",
+      "type": "blockstates",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_oak_bell_on",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/models/block/dark_oak_bell_on_blockstate_0.json"
+        ]
+      }
+    },
+    {
+      "name": "SmoothStoneBell",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smooth_stone_bell",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/models/block/smooth_stone_bell.json",
+          "src/main/resources/assets/minato_furniture/models/item/smooth_stone_bell.json",
+          "src/main/resources/assets/minato_furniture/blockstates/smooth_stone_bell.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/SmoothStoneBellBlock.java",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/smooth_stone_bell.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedGraniteBell",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_granite_bell",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/polished_granite_bell.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/PolishedGraniteBellBlock.java",
+          "src/main/resources/assets/minato_furniture/models/item/polished_granite_bell.json",
+          "src/main/resources/assets/minato_furniture/models/block/polished_granite_bell.json",
+          "src/main/resources/assets/minato_furniture/blockstates/polished_granite_bell.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedGraniteBellOn",
+      "type": "blockstates",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_granite_bell_on",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/models/block/polished_granite_bell_on_blockstate_0.json"
+        ]
+      }
+    },
+    {
+      "name": "SmoothStoneBellOn",
+      "type": "blockstates",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smooth_stone_bell_on",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/models/block/smooth_stone_bell_on_blockstate_0.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedDioriteBell",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_diorite_bell",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/models/item/polished_diorite_bell.json",
+          "src/main/resources/assets/minato_furniture/models/block/polished_diorite_bell.json",
+          "src/main/resources/assets/minato_furniture/blockstates/polished_diorite_bell.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/PolishedDioriteBellBlock.java",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/polished_diorite_bell.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedDioriteBellOn",
+      "type": "blockstates",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_diorite_bell_on",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/models/block/polished_diorite_bell_on_blockstate_0.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedAndesiteBell",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_andesite_bell",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/block/PolishedAndesiteBellBlock.java",
+          "src/main/resources/assets/minato_furniture/models/item/polished_andesite_bell.json",
+          "src/main/resources/assets/minato_furniture/models/block/polished_andesite_bell.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/polished_andesite_bell.json",
+          "src/main/resources/assets/minato_furniture/blockstates/polished_andesite_bell.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedAndesiteBellOn",
+      "type": "blockstates",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_andesite_bell_on",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/models/block/polished_andesite_bell_on_blockstate_0.json"
+        ]
+      }
+    },
+    {
+      "name": "CherryBell",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_bell",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/cherry_bell.json",
+          "src/main/resources/assets/minato_furniture/blockstates/cherry_bell.json",
+          "src/main/resources/assets/minato_furniture/models/item/cherry_bell.json",
+          "src/main/java/net/mcreator/minatosfurniture/block/CherryBellBlock.java",
+          "src/main/resources/assets/minato_furniture/models/block/cherry_bell.json"
+        ]
+      }
+    },
+    {
+      "name": "CherryBellOn",
+      "type": "blockstates",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_bell_on",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/models/block/cherry_bell_on_blockstate_0.json"
+        ]
+      }
+    },
+    {
+      "name": "MangroveBell",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mangrove_bell",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minatosfurniture/block/MangroveBellBlock.java",
+          "src/main/resources/assets/minato_furniture/blockstates/mangrove_bell.json",
+          "src/main/resources/assets/minato_furniture/models/item/mangrove_bell.json",
+          "src/main/resources/data/minato_furniture/loot_tables/blocks/mangrove_bell.json",
+          "src/main/resources/assets/minato_furniture/models/block/mangrove_bell.json"
+        ]
+      }
+    },
+    {
+      "name": "MangroveBellOn",
+      "type": "blockstates",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mangrove_bell_on",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minato_furniture/models/block/mangrove_bell_on_blockstate_0.json"
+        ]
+      }
+    },
+    {
+      "name": "OakBellCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_bell_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/oak_bell_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "SpruceBellCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spruce_bell_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/spruce_bell_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "BirchBellCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "birch_bell_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/birch_bell_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "JungleBellCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jungle_bell_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/jungle_bell_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "AcaciaBellCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acacia_bell_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/acacia_bell_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "DarkOakBellCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_oak_bell_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/dark_oak_bell_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "MangroveBellCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mangrove_bell_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/mangrove_bell_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "CherryBellCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_bell_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/cherry_bell_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "SmoothStoneBellCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smooth_stone_bell_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/smooth_stone_bell_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedGraniteBellCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_granite_bell_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/polished_granite_bell_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedDioriteBellCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_diorite_bell_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/polished_diorite_bell_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedAndesiteBellCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_andesite_bell_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minato_furniture/recipes/polished_andesite_bell_crafting.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "deru",
+      "files": [
+        "se-395497428"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "ireru",
+      "files": [
+        "se-695411320"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "kezuru",
+      "files": [
+        "kezuru13"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "senpuki",
+      "files": [
+        "shan_feng_ji_noruo_hui_zhuan_"
+      ],
+      "category": "block",
+      "subtitle": ""
+    },
+    {
+      "name": "flush",
+      "files": [
+        "nagasu"
+      ],
+      "category": "block",
+      "subtitle": "flush the toilet"
+    },
+    {
+      "name": "bell",
+      "files": [
+        "doatiyaimu1"
+      ],
+      "category": "block",
+      "subtitle": "The doorbell rings"
+    }
+  ],
+  "tag_elements": {
+    "BLOCKS:minecraft:chairs": [
+      "CUSTOM:OakChair",
+      "CUSTOM:SpruceChair",
+      "CUSTOM:BirchChair",
+      "CUSTOM:JungleChair",
+      "CUSTOM:AcaciaChair",
+      "CUSTOM:DarkOakChair",
+      "CUSTOM:SmoothStoneChair",
+      "CUSTOM:PolishedGraniteChair",
+      "CUSTOM:PolishedDioriteChair",
+      "CUSTOM:PolishedAndsiteChair",
+      "CUSTOM:ToiletOpen",
+      "CUSTOM:MangroveChair",
+      "CUSTOM:CherryChair"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:PolishedAndesiteBell",
+      "~CUSTOM:PolishedDioriteBell",
+      "~CUSTOM:PolishedGraniteBell",
+      "~CUSTOM:SmoothStoneBell",
+      "~CUSTOM:ConnectedPolishedAndesiteTable",
+      "~CUSTOM:ConnectedPolishedDioriteTable",
+      "~CUSTOM:ConnectedPolishedGraniteTable",
+      "~CUSTOM:ConnectedSmoothStoneTable",
+      "~CUSTOM:PolishedAndesiteVerticalBookshelf",
+      "~CUSTOM:PolishedDioriteVerticalBookshelf",
+      "~CUSTOM:PolishedGraniteVerticalBookshelf",
+      "~CUSTOM:SmoothStoneVerticalBookshelf",
+      "~CUSTOM:Toilet",
+      "~CUSTOM:ToiletOpen",
+      "~CUSTOM:HighHeatOven",
+      "~CUSTOM:ShavedIceMachineInIce",
+      "~CUSTOM:ShavedIceMachine7",
+      "~CUSTOM:ShavedIceMachine6",
+      "~CUSTOM:ShavedIceMachine5",
+      "~CUSTOM:ShavedIceMachine4",
+      "~CUSTOM:ShavedIceMachine3",
+      "~CUSTOM:ShavedIceMachine2",
+      "~CUSTOM:ShavedIceMachine1",
+      "~CUSTOM:ShavedIceMachine",
+      "~CUSTOM:Refrigerator2",
+      "~CUSTOM:Refrigerator1",
+      "~CUSTOM:PolishedAndesiteTable",
+      "~CUSTOM:PolishedDioriteTable",
+      "~CUSTOM:PolishedGraniteTable",
+      "~CUSTOM:SmoothStoneTable",
+      "~CUSTOM:Bath3",
+      "~CUSTOM:Bath2",
+      "~CUSTOM:Bath1",
+      "~CUSTOM:PolishedAndsiteChair",
+      "~CUSTOM:PolishedDioriteChair",
+      "~CUSTOM:PolishedGraniteChair",
+      "~CUSTOM:SmoothStoneChair"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:HighHeatOven",
+      "~CUSTOM:Bath1"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:ConnectedCherryTable",
+      "~CUSTOM:ConnectedMangroveTable",
+      "~CUSTOM:ConnectedDarkOakTable",
+      "~CUSTOM:ConnectedAcaciaTable",
+      "~CUSTOM:ConnectedJungleTable",
+      "~CUSTOM:ConnectedBirchTable",
+      "~CUSTOM:ConnectedSpruceTable",
+      "~CUSTOM:ConnectedOakTable",
+      "~CUSTOM:CherryVerticalBookshelf",
+      "~CUSTOM:MangroveVerticalBookshelf",
+      "~CUSTOM:DarkOakVerticalBookshelf",
+      "~CUSTOM:AcaciaVerticalBookshelf",
+      "~CUSTOM:JungleVerticalBookshelf",
+      "~CUSTOM:CherryTable",
+      "~CUSTOM:CherryChair",
+      "~CUSTOM:MangroveTable",
+      "~CUSTOM:MangroveChair",
+      "~CUSTOM:BirchVerticalBookshelf",
+      "~CUSTOM:SpruceVerticalBookshelf",
+      "~CUSTOM:OakBookshelf",
+      "~CUSTOM:DarkOakTable",
+      "~CUSTOM:AcaciaTable",
+      "~CUSTOM:JungleTable",
+      "~CUSTOM:BirchTable",
+      "~CUSTOM:SpruceTable",
+      "~CUSTOM:OakTable",
+      "~CUSTOM:DarkOakChair",
+      "~CUSTOM:AcaciaChair",
+      "~CUSTOM:JungleChair",
+      "~CUSTOM:BirchChair",
+      "~CUSTOM:SpruceChair",
+      "~CUSTOM:OakChair"
+    ],
+    "BLOCKS:minato_furniture:table": [
+      "CUSTOM:OakTable",
+      "CUSTOM:SpruceTable",
+      "CUSTOM:BirchTable",
+      "CUSTOM:JungleTable",
+      "CUSTOM:AcaciaTable",
+      "CUSTOM:DarkOakTable",
+      "CUSTOM:SmoothStoneTable",
+      "CUSTOM:PolishedGraniteTable",
+      "CUSTOM:PolishedDioriteTable",
+      "CUSTOM:PolishedAndesiteTable",
+      "CUSTOM:MangroveTable",
+      "CUSTOM:CherryTable",
+      "CUSTOM:ConnectedOakTable",
+      "CUSTOM:ConnectedSpruceTable",
+      "CUSTOM:ConnectedBirchTable",
+      "CUSTOM:ConnectedJungleTable",
+      "CUSTOM:ConnectedAcaciaTable",
+      "CUSTOM:ConnectedDarkOakTable",
+      "CUSTOM:ConnectedPolishedGraniteTable",
+      "CUSTOM:ConnectedPolishedDioriteTable",
+      "CUSTOM:ConnectedPolishedAndesiteTable",
+      "CUSTOM:ConnectedMangroveTable",
+      "CUSTOM:ConnectedCherryTable"
+    ],
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:HotSpring"
+    ]
+  },
+  "tab_element_order": {
+    "CUSTOM:MinatoFurnitureFoods": [
+      "CutCookedBeef",
+      "CutCookedPorkchop",
+      "CutCookedChicken",
+      "CutCookedMutton",
+      "CutCookedRabbit",
+      "ShavedIce",
+      "WatarMelonShaved"
+    ],
+    "CUSTOM:MinatoFurniture": [
+      "OakChair",
+      "SpruceChair",
+      "BirchChair",
+      "JungleChair",
+      "AcaciaChair",
+      "DarkOakChair",
+      "MangroveChair",
+      "CherryChair",
+      "SmoothStoneChair",
+      "PolishedGraniteChair",
+      "PolishedDioriteChair",
+      "PolishedAndsiteChair",
+      "Bath",
+      "OakTable",
+      "SpruceTable",
+      "BirchTable",
+      "JungleTable",
+      "AcaciaTable",
+      "DarkOakTable",
+      "MangroveTable",
+      "CherryTable",
+      "SmoothStoneTable",
+      "PolishedGraniteTable",
+      "PolishedDioriteTable",
+      "PolishedAndesiteTable",
+      "Refrigerator",
+      "IngredientsCutter",
+      "Gear",
+      "HotSpring",
+      "ShowerHead",
+      "ShavedIceMachine",
+      "TV",
+      "FanBlock",
+      "Fuel",
+      "HighHeatOven",
+      "Toilet",
+      "OakBookshelf",
+      "SpruceVerticalBookshelf",
+      "BirchVerticalBookshelf",
+      "JungleVerticalBookshelf",
+      "AcaciaVerticalBookshelf",
+      "DarkOakVerticalBookshelf",
+      "MangroveVerticalBookshelf",
+      "CherryVerticalBookshelf",
+      "SmoothStoneVerticalBookshelf",
+      "PolishedGraniteVerticalBookshelf",
+      "PolishedDioriteVerticalBookshelf",
+      "PolishedAndesiteVerticalBookshelf",
+      "OakBell",
+      "SpruceBell",
+      "BirchBell",
+      "JungleBell",
+      "AcaciaBell",
+      "DarkOakBell",
+      "MangroveBell",
+      "CherryBell",
+      "SmoothStoneBell",
+      "PolishedGraniteBell",
+      "PolishedDioriteBell",
+      "PolishedAndesiteBell"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "block.minato_furniture.connected_polished_diorite_table": "Polished Diorite Table",
+      "block.minato_furniture.dark_oak_chair": "Dark Oak Chair",
+      "item.minato_furniture.bath": "Bath",
+      "block.minato_furniture.shaved_ice_machine_1": "shaved ice machine",
+      "block.minato_furniture.polished_diorite_chair": "Polished Diorite Chair",
+      "block.minato_furniture.connected_oak_table": "Oak Table",
+      "block.minato_furniture.cherry_table": "Cherry Table",
+      "item.minato_furniture.cut_cooked_mutton": "Cut Cooked Mutton",
+      "subtitles.ireru": "",
+      "item.minato_furniture.shaved_ice": "shaved ice",
+      "block.minato_furniture.spruce_vertical_bookshelf": "Spruce Vertical Bookshelf",
+      "block.minato_furniture.shower_head_on": "shower head",
+      "block.minato_furniture.birch_chair": "Birch Chair",
+      "block.minato_furniture.polished_diorite_vertical_bookshelf": "Polished Diorite Vertical Bookshelf",
+      "fluid.minato_furniture.hot_spring": "Hot Spring",
+      "block.minato_furniture.shaved_ice_machine": "shaved ice machine",
+      "subtitles.deru": "",
+      "block.minato_furniture.polished_diorite_table": "Polished Diorite Table",
+      "block.minato_furniture.spruce_table": "Spruce Table",
+      "block.minato_furniture.cherry_chair": "Cherry Chair",
+      "gui.minato_furniture.refrigerator_1_gui.button_freeze": "freeze",
+      "block.minato_furniture.hot_spring": "Hot Spring",
+      "block.minato_furniture.connected_cherry_table": "Cherry Table",
+      "block.minato_furniture.shaved_ice_machine_4": "shaved ice machine",
+      "block.minato_furniture.shaved_ice_machine_5": "shaved ice machine",
+      "block.minato_furniture.shaved_ice_machine_2": "shaved ice machine",
+      "block.minato_furniture.shaved_ice_machine_3": "shaved ice machine",
+      "block.minato_furniture.oak_vertical_bookshelf": "Oak Vertical Bookshelf",
+      "block.minato_furniture.connected_smooth_stone_table": "Smooth Stone Table",
+      "block.minato_furniture.connected_jungle_table": "Jungle Table",
+      "block.minato_furniture.shaved_ice_machine_6": "shaved ice machine",
+      "block.minato_furniture.polished_andesite_vertical_bookshelf": "Polished Andesite Vertical Bookshelf",
+      "block.minato_furniture.shaved_ice_machine_7": "shaved ice machine",
+      "block.minato_furniture.birch_bell": "Birch Bell",
+      "block.minato_furniture.mangrove_bell": "Mangrove Bell",
+      "block.minato_furniture.spruce_chair": "Spruce Chair",
+      "itemGroup.tabminato_furniture": "Minato\u0027s Furniture",
+      "block.minato_furniture.connected_polished_andesite_table": "Polished Andesite Table",
+      "block.minato_furniture.jungle_chair": "Jungle Chair",
+      "block.minato_furniture.connected_polished_granite_table": "Polished Granite Table",
+      "block.minato_furniture.jungle_table": "Jungle Table",
+      "advancements.its_cool.descr": "Hit by the wind from the fan.",
+      "block.minato_furniture.polished_granite_chair": "Polished Granite Chair",
+      "block.minato_furniture.polished_granite_table": "Polished Granite Table",
+      "advancements.its_cool.title": "Its Cool",
+      "block.minato_furniture.connected_mangrove_table": "Mangrove Table",
+      "block.minato_furniture.tv": "TV",
+      "block.minato_furniture.polished_diorite_bell": "Polished Diorite Bell",
+      "item_group.minato_furniture.minato_furniture_foods": "Minato\u0027s Furniture (foods)",
+      "block.minato_furniture.acacia_bell": "Acacia Bell",
+      "block.minato_furniture.tv_on": "TV",
+      "item.minato_furniture.cut_cooked_porkchop": "cut cooked porkchop",
+      "block.minato_furniture.birch_table": "Birch Table",
+      "block.minato_furniture.bath_1": "Bath",
+      "subtitles.kezuru": "",
+      "block.minato_furniture.bath_2": "Bath",
+      "block.minato_furniture.bath_3": "Bath",
+      "block.minato_furniture.connected_dark_oak_table": "Dark Oak Table",
+      "item.minato_furniture.refrigerator": "refrigerator",
+      "block.minato_furniture.cherry_bell": "Cherry Bell",
+      "block.minato_furniture.jungle_vertical_bookshelf": "Jungle Vertical Bookshelf",
+      "block.minato_furniture.toilet_open": "Toilet",
+      "block.minato_furniture.polished_granite_bell": "Polished Granite Bell",
+      "subtitles.senpuki": "",
+      "block.minato_furniture.birch_vertical_bookshelf": "Birch Vertical Bookshelf",
+      "block.minato_furniture.acacia_table": "Acacia Table",
+      "effect.minato_furniture.cool": "Cool",
+      "block.minato_furniture.fan_block": "Fan",
+      "block.minato_furniture.oak_bell": "Oak Bell",
+      "block.minato_furniture.connected_birch_table": "Birch Table",
+      "block.minato_furniture.high_heat_oven": "High heat oven",
+      "block.minato_furniture.connected_acacia_table": "Acacia Table",
+      "entity.minato_furniture.blocksit": "Blocksit",
+      "item.minato_furniture.cut_cooked_chicken": "cut cooked chicken",
+      "itemGroup.tab_minato_furniture": "Minato\u0027s Furniture",
+      "item_group.minato_furniture.minato_furniture": "Minato\u0027s Furniture",
+      "subtitles.flush": "flush the toilet",
+      "block.minato_furniture.polished_andesite_chair": "Polished Andesite Chair",
+      "block.minato_furniture.smooth_stone_vertical_bookshelf": "Smooth Stone Vertical Bookshelf",
+      "block.minato_furniture.cherry_vertical_bookshelf": "Cherry Vertical Bookshelf",
+      "item.minato_furniture.hot_spring_bucket": "Hot Spring Bucket",
+      "itemGroup.tabminato_furniture_foods": "Minato\u0027s Furniture (foods)",
+      "block.minato_furniture.smooth_stone_table": "Smooth Stone Table",
+      "block.minato_furniture.acacia_chair": "Acacia Chair",
+      "item.minato_furniture.cut_cooked_rabbit": "Cut Cooked Rabbit",
+      "block.minato_furniture.connected_spruce_table": "Spruce Table",
+      "itemGroup.tab_minato_furniture_foods": "Minato\u0027s Furniture (foods)",
+      "subtitles.bell": "The doorbell rings",
+      "block.minato_furniture.smooth_stone_chair": "Smooth Stone Chair",
+      "block.minato_furniture.polished_andesite_table": "Polished Andesite Table",
+      "item.minato_furniture.fuel": "Fuel",
+      "block.minato_furniture.oak_chair": "Oak Chair",
+      "block.minato_furniture.acacia_vertical_bookshelf": "Acacia Vertical Bookshelf",
+      "block.minato_furniture.refrigerator_1": "Refrigerator",
+      "block.minato_furniture.mangrove_vertical_bookshelf": "Mangrove Vertical Bookshelf",
+      "block.minato_furniture.refrigerator_2": "Refrigerator",
+      "gui.minato_furniture.refrigerator_2_gui.label_refrigerator": "refrigerator",
+      "effect.cool": "Cool",
+      "block.minato_furniture.polished_granite_vertical_bookshelf": "Polished Granite Vertical Bookshelf",
+      "block.minato_furniture.mangrove_chair": "Mangrove Chair",
+      "block.minato_furniture.polished_andesite_bell": "Polished Andesite Bell",
+      "block.minato_furniture.mangrove_table": "Mangrove Table",
+      "block.minato_furniture.dark_oak_vertical_bookshelf": "Dark Oak Vertical Bookshelf",
+      "block.minato_furniture.shaved_ice_machine_in_ice": "shaved ice machine",
+      "block.minato_furniture.dark_oak_bell": "Dark Oak Bell",
+      "gui.minato_furniture.oven.label_high_heat_oven": "High heat oven",
+      "block.minato_furniture.toilet": "Toilet",
+      "block.minato_furniture.jungle_bell": "Jungle Bell",
+      "block.minato_furniture.ingredients_cutter": "ingredients cutter",
+      "block.minato_furniture.shower_head": "shower head",
+      "item.minato_furniture.gear": "Gear",
+      "block.minato_furniture.spruce_bell": "Spruce Bell",
+      "block.minato_furniture.smooth_stone_bell": "Smooth Stone Bell",
+      "item.minato_furniture.cut_cooked_beef": "cut cooked beef",
+      "block.minato_furniture.oak_table": "Oak Table",
+      "block.minato_furniture.dark_oak_table": "Dark Oak Table",
+      "item.minato_furniture.water_melon_shaved": "water melon shaved"
+    },
+    "ja_jp": {
+      "block.minato_furniture.connected_polished_diorite_table": "磨かれた閃緑岩のテーブル",
+      "block.minato_furniture.dark_oak_chair": "ダークオークの椅子",
+      "item.minato_furniture.bath": "風呂",
+      "block.minato_furniture.shaved_ice_machine_1": "かき氷機",
+      "block.minato_furniture.polished_diorite_chair": "磨かれた閃緑岩の椅子",
+      "block.minato_furniture.connected_oak_table": "オークのテーブル",
+      "block.minato_furniture.cherry_table": "サクラのテーブル",
+      "item.minato_furniture.cut_cooked_mutton": "カットした焼き羊肉",
+      "subtitles.ireru": "音",
+      "item.minato_furniture.shaved_ice": "かき氷",
+      "block.minato_furniture.spruce_vertical_bookshelf": "トウヒの縦型本棚",
+      "block.minato_furniture.shower_head_on": "シャワー",
+      "block.minato_furniture.birch_chair": "シラカバの椅子",
+      "block.minato_furniture.polished_diorite_vertical_bookshelf": "磨かれた花崗岩の縦型本棚",
+      "fluid.minato_furniture.hot_spring": "温泉",
+      "block.minato_furniture.shaved_ice_machine": "かき氷機",
+      "subtitles.deru": "音",
+      "block.minato_furniture.polished_diorite_table": "磨かれた閃緑岩のテーブル",
+      "block.minato_furniture.spruce_table": "オークのテーブル",
+      "block.minato_furniture.cherry_chair": "サクラの椅子",
+      "gui.minato_furniture.refrigerator_1_gui.button_freeze": "凍らせる",
+      "block.minato_furniture.hot_spring": "温泉",
+      "block.minato_furniture.connected_cherry_table": "サクラのテーブル",
+      "block.minato_furniture.shaved_ice_machine_4": "かき氷機",
+      "block.minato_furniture.shaved_ice_machine_5": "かき氷機",
+      "block.minato_furniture.shaved_ice_machine_2": "かき氷機",
+      "block.minato_furniture.shaved_ice_machine_3": "かき氷機",
+      "block.minato_furniture.oak_vertical_bookshelf": "オークの縦型本棚",
+      "block.minato_furniture.connected_smooth_stone_table": "滑らかな石のテーブル",
+      "block.minato_furniture.connected_jungle_table": "ジャングルのテーブル",
+      "block.minato_furniture.shaved_ice_machine_6": "かき氷機",
+      "block.minato_furniture.polished_andesite_vertical_bookshelf": "磨かれた閃緑岩の縦型本棚",
+      "block.minato_furniture.shaved_ice_machine_7": "かき氷機",
+      "block.minato_furniture.birch_bell": "シラカバのドアベル",
+      "block.minato_furniture.mangrove_bell": "マングローブのドアベル",
+      "block.minato_furniture.spruce_chair": "トウヒの椅子",
+      "itemGroup.tabminato_furniture": "湊の家具",
+      "block.minato_furniture.connected_polished_andesite_table": "磨かれた安山岩のテーブル",
+      "block.minato_furniture.jungle_chair": "ジャングルの椅子",
+      "block.minato_furniture.connected_polished_granite_table": "磨かれた花崗岩のテーブル",
+      "advancements.its_cool.descr": "扇風機にあたる",
+      "block.minato_furniture.jungle_table": "ジャングルのテーブル",
+      "block.minato_furniture.polished_granite_chair": "磨かれた花崗岩の椅子",
+      "block.minato_furniture.polished_granite_table": "磨かれた花崗岩のテーブル",
+      "advancements.its_cool.title": "涼しいー!",
+      "block.minato_furniture.connected_mangrove_table": "マングローブのテーブル",
+      "block.minato_furniture.tv": "TV",
+      "block.minato_furniture.polished_diorite_bell": "磨かれた閃緑岩のドアベル",
+      "item_group.minato_furniture.minato_furniture_foods": "みなとの家具 食べ物",
+      "block.minato_furniture.acacia_bell": "アカシアのドアベル",
+      "block.minato_furniture.tv_on": "TV",
+      "item.minato_furniture.cut_cooked_porkchop": "カットした焼き豚",
+      "block.minato_furniture.birch_table": "シラカバのテーブル",
+      "block.minato_furniture.bath_1": "風呂",
+      "subtitles.kezuru": "音",
+      "block.minato_furniture.bath_2": "風呂",
+      "block.minato_furniture.bath_3": "風呂",
+      "block.minato_furniture.connected_dark_oak_table": "ダークオークのテーブル",
+      "item.minato_furniture.refrigerator": "冷蔵庫",
+      "block.minato_furniture.cherry_bell": "サクラのドアベル",
+      "block.minato_furniture.jungle_vertical_bookshelf": "ジャングルの縦型本棚",
+      "block.minato_furniture.toilet_open": "トイレ",
+      "block.minato_furniture.polished_granite_bell": "磨かれた花崗岩のドアベル",
+      "subtitles.senpuki": "音",
+      "block.minato_furniture.birch_vertical_bookshelf": "シラカバの縦型本棚",
+      "block.minato_furniture.acacia_table": "アカシアのテーブル",
+      "effect.minato_furniture.cool": "涼しいー!",
+      "block.minato_furniture.fan_block": "扇風機",
+      "block.minato_furniture.oak_bell": "オークのドアベル",
+      "block.minato_furniture.connected_birch_table": "シラカバのテーブル",
+      "block.minato_furniture.high_heat_oven": "高温オーブン",
+      "block.minato_furniture.connected_acacia_table": "アカシアのテーブル",
+      "entity.minato_furniture.blocksit": "椅子",
+      "item.minato_furniture.cut_cooked_chicken": "カットした焼き鶏",
+      "itemGroup.tab_minato_furniture": "みなとの家具",
+      "item_group.minato_furniture.minato_furniture": "みなとの家具",
+      "subtitles.flush": "トイレを流す",
+      "block.minato_furniture.polished_andesite_chair": "磨かれた安山岩の椅子",
+      "block.minato_furniture.smooth_stone_vertical_bookshelf": "滑らかな石の縦型本棚",
+      "block.minato_furniture.cherry_vertical_bookshelf": "サクラの縦型本棚",
+      "item.minato_furniture.hot_spring_bucket": "温泉入りバケツ",
+      "itemGroup.tabminato_furniture_foods": "湊の家具(食べ物)",
+      "block.minato_furniture.smooth_stone_table": "滑らかな石のテーブル",
+      "block.minato_furniture.acacia_chair": "アカシアの椅子",
+      "item.minato_furniture.cut_cooked_rabbit": "カットした焼き兎肉",
+      "block.minato_furniture.connected_spruce_table": "トウヒのテーブル",
+      "itemGroup.tab_minato_furniture_foods": "みなとの家具　食べ物",
+      "subtitles.bell": "ドアベルが鳴る",
+      "block.minato_furniture.smooth_stone_chair": "滑らかな石の椅子",
+      "block.minato_furniture.polished_andesite_table": "磨かれた安山岩のテーブル",
+      "item.minato_furniture.fuel": "燃料",
+      "block.minato_furniture.oak_chair": "オークの椅子",
+      "block.minato_furniture.acacia_vertical_bookshelf": "アカシアの縦型本棚",
+      "block.minato_furniture.refrigerator_1": "冷蔵庫ブロック1",
+      "block.minato_furniture.mangrove_vertical_bookshelf": "マングローブの縦型本棚",
+      "block.minato_furniture.refrigerator_2": "冷蔵庫ブロック2",
+      "gui.minato_furniture.refrigerator_2_gui.label_refrigerator": "冷蔵庫",
+      "effect.cool": "涼しいー!",
+      "block.minato_furniture.polished_granite_vertical_bookshelf": "磨かれた花崗岩の縦型本棚",
+      "block.minato_furniture.mangrove_chair": "マングローブの椅子",
+      "block.minato_furniture.polished_andesite_bell": "磨かれた安山岩のドアベル",
+      "block.minato_furniture.mangrove_table": "マングローブのテーブル",
+      "block.minato_furniture.dark_oak_vertical_bookshelf": "ダークオークの縦型本棚",
+      "block.minato_furniture.shaved_ice_machine_in_ice": "かき氷機",
+      "block.minato_furniture.dark_oak_bell": "ダークオークのドアベル",
+      "gui.minato_furniture.oven.label_high_heat_oven": "オーブン",
+      "block.minato_furniture.toilet": "トイレ",
+      "block.minato_furniture.jungle_bell": "ジャングルのドアベル",
+      "block.minato_furniture.ingredients_cutter": "食材カッター",
+      "block.minato_furniture.shower_head": "シャワー",
+      "item.minato_furniture.gear": "歯車",
+      "block.minato_furniture.spruce_bell": "トウヒのドアベル",
+      "block.minato_furniture.smooth_stone_bell": "滑らかな石のドアベル",
+      "item.minato_furniture.cut_cooked_beef": "カットしたステーキ",
+      "block.minato_furniture.oak_table": "オークのテーブル",
+      "block.minato_furniture.dark_oak_table": "ダークオークのテーブル",
+      "item.minato_furniture.water_melon_shaved": "スイカシャーベット"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "minato_furniture",
+    "modName": "Minato\u0027s Furniture",
+    "version": "2.1.2",
+    "author": "midok, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.minatosfurniture"
+  },
+  "mcreatorVersion": 202400452410
+}
