@@ -6,7 +6,7 @@ From chairs and tables to shelves and lamps, enhance your builds with aesthetic 
 ## 🔧 Compatibility
 
 - **Minecraft version**: 1.20.1 , 1.21.1  (Versions that are no longer being updated : 1.16.5 , 1.18.2 , 1.19.2 , 1.20.4)
-- **Mod loader**: Forge(1.16.5~1.20.1) , NeoForge(1.20.4~)
+- **Mod loader**: Forge(1.16.5～1.20.1) , NeoForge(1.20.4～)
 - **Created with**: MCreator
 
 ## 📦 Download
@@ -14,16 +14,10 @@ From chairs and tables to shelves and lamps, enhance your builds with aesthetic 
 - [Download on CurseForge](https://www.curseforge.com/minecraft/mc-mods/minato-furniture)  
 - [Download on Modrinth](https://modrinth.com/mod/minato-furniture)
 
-## 📸 Screenshots
-
-_Add screenshots here to show your furniture in action!_
-
 ## 🪑 Features
 
-- Wooden chairs (oak, dark oak, birch, etc.)
-- Sofas in multiple colors
-- Wall-mounted shelves
-- Decorative items such as vases and lamps
+- Wooden chairs and tables (oak, dark oak, birch, etc.)
+- bath and toilet
 - And more to come!
 
 ## ❓ FAQ
@@ -33,6 +27,9 @@ A: Yes, it is primarily built using MCreator.
 
 **Q: Is it compatible with other mods?**  
 A: No known conflicts as of now.
+
+**Q: Updates such as version 1.16.5?**
+A:I might update it, but I don't usually update it. I'll deal with any bugs that I find.
 
 ## 📜 License
 
